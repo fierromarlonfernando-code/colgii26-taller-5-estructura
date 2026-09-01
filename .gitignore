@@ -1,0 +1,43 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# MARS Simulator
+*.o
+output.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+*~
+.temp/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Carpeta de archivos personales
+personal/

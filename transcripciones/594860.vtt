@@ -1,0 +1,2102 @@
+WEBVTT
+
+1
+00:00:02.720 --> 00:00:09.030
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y entonces lo primero son tan amables, Me confirman audio y vídeo. ¿me escuchan. ¿me ven bien.
+
+2
+00:00:09.430 --> 00:00:10.280
+Thomas Alfonso Jaramillo Meneses: Sí, señor Profeso.
+
+3
+00:00:10.280 --> 00:00:11.420
+Esneyder Rene Vargas Rico: Señor. Sí, señor.
+
+4
+00:00:11.660 --> 00:00:13.380
+DEIVIS EDUARD RAMIREZ MARTINEZ: No hay desgracias.
+
+5
+00:00:13.850 --> 00:00:14.810
+DEIVIS EDUARD RAMIREZ MARTINEZ: Bueno.
+
+6
+00:00:18.090 --> 00:00:22.300
+DEIVIS EDUARD RAMIREZ MARTINEZ: así que haces del curso que termina ahorita. Voy a cerrarlo. Y
+
+7
+00:00:23.020 --> 00:00:25.780
+DEIVIS EDUARD RAMIREZ MARTINEZ: esto que es el barrio también.
+
+8
+00:00:27.770 --> 00:00:38.939
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿cuál es el objetivo de esta sesión? Recuérdese que nosotros nos volvemos a ver el miércoles que esta sesión solamente tiene una duración de una hora y es una sesión enfocada hacia explicar ese laboratorio que ustedes tienen que hacer.
+
+9
+00:00:39.650 --> 00:00:47.880
+DEIVIS EDUARD RAMIREZ MARTINEZ: La evaluación, que es la primera actividad está enfocada hacia un laboratorio de simulación. Ahora bien, ¿qué les voy a recomendar yo
+
+10
+00:00:49.260 --> 00:00:50.410
+DEIVIS EDUARD RAMIREZ MARTINEZ: que hagan?
+
+11
+00:00:51.170 --> 00:00:55.459
+DEIVIS EDUARD RAMIREZ MARTINEZ: Como les decía la clase pasada yo ya les coloqué todo
+
+12
+00:00:55.820 --> 00:00:58.969
+DEIVIS EDUARD RAMIREZ MARTINEZ: el material necesario para la actividad.
+
+13
+00:01:00.310 --> 00:01:01.400
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces.
+
+14
+00:01:02.290 --> 00:01:08.760
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿cuál es el ideal que ustedes utilizan? Llámese yo que sé, ya me olvidan el Note Pass Note Plus
+
+15
+00:01:08.870 --> 00:01:11.629
+DEIVIS EDUARD RAMIREZ MARTINEZ: o el visual Studio Code, que es el más utilizado.
+
+16
+00:01:12.000 --> 00:01:17.420
+DEIVIS EDUARD RAMIREZ MARTINEZ: Yo les recomiendo que creen un proyecto en el editor de su
+
+17
+00:01:17.600 --> 00:01:21.189
+DEIVIS EDUARD RAMIREZ MARTINEZ: de su preferencia. En el caso mío, yo utilizo visual, studio, code
+
+18
+00:01:21.680 --> 00:01:27.229
+DEIVIS EDUARD RAMIREZ MARTINEZ: y descarguen todo el material que está en la parte de documentación. Ya les voy a decir por qué.
+
+19
+00:01:29.670 --> 00:01:45.910
+DEIVIS EDUARD RAMIREZ MARTINEZ: Bueno, todo el material, excepto el video que le subí, donde explicaba lo del simulador del resto. Conceptos básicos del laboratorio guía laboratorio. También plantilla del informe. Es otro documento también programa base a S M de A. S. M. Perdón también referencias 100.
+
+20
+00:01:46.140 --> 00:02:02.640
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces, tense en cuenta que la extensión como tal de cada 1 de los elementos o esos archivos que están en la carpeta de documentación nos da ya un indicio. El M P. Cuatro es un archivo de vídeo. No lo vamos a explicar, pero esto de P, D, F, P, D, F, M. D. Smartdown: Ya les voy a explicar cómo se trabaja con Mark Down.
+
+21
+00:02:02.790 --> 00:02:08.660
+DEIVIS EDUARD RAMIREZ MARTINEZ: el programa base a S M. Esos las extensiones de Asembler
+
+22
+00:02:08.910 --> 00:02:15.580
+DEIVIS EDUARD RAMIREZ MARTINEZ: aquí, por ejemplo, cuando nosotros utilizamos Python, la extensión de un script de Python es punto. Pay Py, sí, o
+
+23
+00:02:15.850 --> 00:02:24.859
+DEIVIS EDUARD RAMIREZ MARTINEZ: un documento en Word Doc o do. X, si es las últimas versiones de Word y cosas así. Y Pdf: Entonces, descárganse todos estos archivos
+
+24
+00:02:26.120 --> 00:02:29.829
+DEIVIS EDUARD RAMIREZ MARTINEZ: y métalos dentro de esa carpeta de ese proyecto
+
+25
+00:02:30.220 --> 00:02:34.799
+DEIVIS EDUARD RAMIREZ MARTINEZ: Miremos la el documento como tal del laboratorio. Lo voy a descargar.
+
+26
+00:02:37.910 --> 00:02:39.080
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a abrir
+
+27
+00:02:51.090 --> 00:02:53.330
+DEIVIS EDUARD RAMIREZ MARTINEZ: listo. Acá. ¿está esto?
+
+28
+00:02:56.380 --> 00:02:57.540
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces
+
+29
+00:03:03.120 --> 00:03:07.160
+DEIVIS EDUARD RAMIREZ MARTINEZ: primero, sí, o sí, ábranse una cuenta
+
+30
+00:03:07.280 --> 00:03:16.860
+DEIVIS EDUARD RAMIREZ MARTINEZ: y ojo recalco. Es necesario que tengan una cuenta en un sistema de control de versiones. Llámese Github: Llámese Gitlab, que es otro
+
+31
+00:03:17.170 --> 00:03:20.399
+DEIVIS EDUARD RAMIREZ MARTINEZ: porque ustedes deben subir el código
+
+32
+00:03:21.010 --> 00:03:27.839
+DEIVIS EDUARD RAMIREZ MARTINEZ: resultante de esa modificación que van a hacer ustedes o se van a a cargar los
+
+33
+00:03:28.120 --> 00:03:34.049
+DEIVIS EDUARD RAMIREZ MARTINEZ: los archivos que van a estar en punto a s. M. D, o sea, los archivos que se van a crear, haciendo uso del lenguaje, asembler.
+
+34
+00:03:34.780 --> 00:03:41.149
+DEIVIS EDUARD RAMIREZ MARTINEZ: recapitulo para poder. Ay, yo no le he subido el mar. Sabes
+
+35
+00:03:42.490 --> 00:03:49.189
+DEIVIS EDUARD RAMIREZ MARTINEZ: deme un momento porque acá apenas leí el enunciado, me di cuenta que no tenían el simulador. El simulador es este.
+
+36
+00:03:52.780 --> 00:03:55.720
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a cargarlo en la carpeta de documentación, un momento
+
+37
+00:04:29.870 --> 00:04:37.069
+DEIVIS EDUARD RAMIREZ MARTINEZ: listo, este último archivo que estoy cargando ahí que se llama Maps. Es el es el
+
+38
+00:04:37.620 --> 00:04:41.419
+DEIVIS EDUARD RAMIREZ MARTINEZ: el simulador que nosotros vamos a utilizar. Voy a darle guardar cambios.
+
+39
+00:04:43.030 --> 00:04:47.380
+DEIVIS EDUARD RAMIREZ MARTINEZ: Este es normal, más
+
+40
+00:04:47.810 --> 00:04:56.039
+DEIVIS EDUARD RAMIREZ MARTINEZ: más 4 guión de piso con collar. ¿qué significa el punto? Ya ¿quién me dice usted? ¿alguno de ustedes sabe por qué tiene esa extensión? Punto, ya.
+
+41
+00:04:56.040 --> 00:04:57.369
+Thomas Alfonso Jaramillo Meneses: De Java, no Profe.
+
+42
+00:04:57.820 --> 00:05:04.630
+DEIVIS EDUARD RAMIREZ MARTINEZ: Exacto, tomás. Eso es un simulador que está hecho con Java y significa que.
+
+43
+00:05:05.160 --> 00:05:19.399
+DEIVIS EDUARD RAMIREZ MARTINEZ: o sea, una de las ventajas que tiene utilizar un lenguaje de programación, como ya ves que es un es un es un software que en este caso no necesitamos instalar se ejecuta, pero no se instala qué. El punto Yier significa esto? Entonces
+
+44
+00:05:19.900 --> 00:05:24.419
+DEIVIS EDUARD RAMIREZ MARTINEZ: retomamos. Descargan todo esto. Yo, como yo, ya tengo el simulador cargado
+
+45
+00:05:24.740 --> 00:05:32.859
+DEIVIS EDUARD RAMIREZ MARTINEZ: y siguiendo las indicaciones acá para poder realizar las prácticas del laboratorio de usarse a sembler. Sí, este es el simulador.
+
+46
+00:05:32.990 --> 00:05:34.589
+DEIVIS EDUARD RAMIREZ MARTINEZ: Así se llama Max.
+
+47
+00:05:35.600 --> 00:05:51.690
+DEIVIS EDUARD RAMIREZ MARTINEZ: que básicamente es un I D para Meet, para para instrucciones de goma flotante. Y todo esto, el cual se va a poder ejecutar. O sea, lo único no tienen que instalar nada, pero sí tienen que instalar un un tienes que tener instalado un mar que un
+
+48
+00:05:52.510 --> 00:06:09.360
+DEIVIS EDUARD RAMIREZ MARTINEZ: ya va virtual Machine, una máquina virtual de llamada para que se pueda ejecutar eso? ¿cómo van a saber si lo tienen instalado o no lo tienen instalado, pues hay 2 opciones: dándole click al programa y si no les sale, pues ahí mismo les va a indicar para que descarguen o se van al panel de control y miran si tienen alguna versión de ya o ya instalado o de
+
+49
+00:06:10.890 --> 00:06:13.700
+DEIVIS EDUARD RAMIREZ MARTINEZ: a ver. Yo confirmo cuál tengo yo
+
+50
+00:06:29.360 --> 00:06:38.970
+DEIVIS EDUARD RAMIREZ MARTINEZ: ejemplo. Buscan nivel Oper Kit o un kit de desarrollo para aplicaciones. Java con esto que con el con que tengan instalado. Esto es suficiente
+
+51
+00:06:39.240 --> 00:06:42.799
+DEIVIS EDUARD RAMIREZ MARTINEZ: sí para que puedan ejecutar
+
+52
+00:06:42.990 --> 00:06:49.750
+DEIVIS EDUARD RAMIREZ MARTINEZ: listo aquí. Esto basicamente la captura de la imagen del archivo que les acabo de cargar, que no les había cargado.
+
+53
+00:06:50.080 --> 00:06:55.769
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y comienzo con haciendo una pequeña descripción del simulador como tal, ¿Para qué sirve ese simulador?
+
+54
+00:06:55.890 --> 00:07:12.879
+DEIVIS EDUARD RAMIREZ MARTINEZ: Realmente es una interfaz gráfica, Así como nosotros tenemos, digamos, visual Studio code si donde vamos haciendo compilación, ejecutando cualquier lengua de programación. Y esto esto es eso una idea de desarrollo, pero una idea de desarrollo, específicamente parasempler Acá no se puede ejecutar otra cosa
+
+55
+00:07:13.190 --> 00:07:18.139
+DEIVIS EDUARD RAMIREZ MARTINEZ: dentro de las características que tiene como tal el simulador Es más, lo puedo ir ejecutando
+
+56
+00:07:21.580 --> 00:07:35.469
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿Es esto: valores de registro de memoria, visualización de valores hexacil Aquí ya me abrió. Por favor, descárguenlo. Y si en alguno tiene algún inconveniente al al ejecutarlo, pues ese es el momento ideal para que me diga.
+
+57
+00:07:35.620 --> 00:07:39.459
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a dividir pantalla que continuemos con esto
+
+58
+00:07:39.560 --> 00:07:44.750
+DEIVIS EDUARD RAMIREZ MARTINEZ: al lado derecho, Ustedes ven el simulador, que es el archivo que les cabe cargar con punto Com
+
+59
+00:07:45.090 --> 00:07:52.210
+DEIVIS EDUARD RAMIREZ MARTINEZ: del punto de Java, que es el que vamos a utilizar y esto es interfaz gráfica ahorita, vamos a detallar cada una de las interfaces.
+
+60
+00:07:52.310 --> 00:08:00.730
+DEIVIS EDUARD RAMIREZ MARTINEZ: La visualización de valores en hexadecimal o decimal modo de línea, de comandos registros de comas flotantes.
+
+61
+00:08:01.400 --> 00:08:10.639
+DEIVIS EDUARD RAMIREZ MARTINEZ: ejecución de todo, o sea, el paso a paso. Hay 2 opciones de compilar paso a paso o de todo el programa en un solo en solo Bash, en un solo envío.
+
+62
+00:08:11.470 --> 00:08:13.789
+DEIVIS EDUARD RAMIREZ MARTINEZ: Me detengo acá
+
+63
+00:08:16.890 --> 00:08:24.950
+DEIVIS EDUARD RAMIREZ MARTINEZ: adicionalmente en la carpeta de documentación se cargarán los siguientes documentos necesarios para el laboratorio. Conceptos básicos del laboratorio
+
+64
+00:08:25.250 --> 00:08:28.880
+DEIVIS EDUARD RAMIREZ MARTINEZ: S. S. P. D. F, que está acá conceptos básicos.
+
+65
+00:08:32.750 --> 00:08:40.089
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ahí está cargado de Perdonen, voy a resaltar esto para validar que todo esté bien allá y al laboratorio.
+
+66
+00:08:42.530 --> 00:08:44.359
+DEIVIS EDUARD RAMIREZ MARTINEZ: Aquí están, y el Laboratorio
+
+67
+00:08:48.670 --> 00:08:55.680
+DEIVIS EDUARD RAMIREZ MARTINEZ: Plantilla informe Mark Down perfecto
+
+68
+00:08:59.020 --> 00:09:00.999
+DEIVIS EDUARD RAMIREZ MARTINEZ: en un momento, lo ya los leo.
+
+69
+00:09:04.010 --> 00:09:11.370
+DEIVIS EDUARD RAMIREZ MARTINEZ: luego la validación y lo leo tutorial más en formato. P. D F Posteriores más en formato. Pdf
+
+70
+00:09:16.440 --> 00:09:18.840
+DEIVIS EDUARD RAMIREZ MARTINEZ: guía rápida de instrucciones en las hembras
+
+71
+00:09:23.160 --> 00:09:27.089
+DEIVIS EDUARD RAMIREZ MARTINEZ: referencia de instrucciones en la Cepla
+
+72
+00:09:29.320 --> 00:09:35.730
+DEIVIS EDUARD RAMIREZ MARTINEZ: y archivo con el código asemple programa base, que ya lo vi, ahorita.
+
+73
+00:09:36.050 --> 00:09:37.719
+DEIVIS EDUARD RAMIREZ MARTINEZ: Es el punto A, S. M. D.
+
+74
+00:09:37.970 --> 00:09:44.089
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces con esto válido que ustedes ya tienen todos los elementos. Cuando hablo elementos. Me refiero a estos archivos más el simulador.
+
+75
+00:09:48.080 --> 00:09:50.009
+DEIVIS EDUARD RAMIREZ MARTINEZ: a ver, lo voy leyendo.
+
+76
+00:09:53.520 --> 00:09:54.450
+DEIVIS EDUARD RAMIREZ MARTINEZ: Sí,
+
+77
+00:09:55.680 --> 00:10:02.759
+DEIVIS EDUARD RAMIREZ MARTINEZ: perfecto. Ya veo que hay varios de ustedes. El este ya lo compiló perfecto. Lo que tengo en el lado derecho de mi pantalla es el simulador funcionando
+
+78
+00:10:02.960 --> 00:10:09.389
+DEIVIS EDUARD RAMIREZ MARTINEZ: lo mismo para Snaker. Perfecto. Juan David Perfecto, Okay, vamos bien este de conceptos previos.
+
+79
+00:10:10.090 --> 00:10:12.970
+DEIVIS EDUARD RAMIREZ MARTINEZ: Es necesario que lo lean. ¿por qué?
+
+80
+00:10:13.160 --> 00:10:27.900
+DEIVIS EDUARD RAMIREZ MARTINEZ: Porque vamos a saber qué es un lenguaje de programación asembbler, o sea, que es un pro lenguaje de programación de bajo nivel que en este caso se va a llamar asembbler. Y acá lo digo puntualmente, es un lenguaje de programación de bajo nivel, también conocido como ensamblador que se utiliza
+
+81
+00:10:28.070 --> 00:10:32.200
+DEIVIS EDUARD RAMIREZ MARTINEZ: para escribir programas que se ejecutan directamente
+
+82
+00:10:32.390 --> 00:10:44.810
+DEIVIS EDUARD RAMIREZ MARTINEZ: en el computador o dispositivos electrónicos. Por eso se llama lenguaje de bajo nivel. Prácticamente nosotros vamos a estar programando en un nivel muy cercano a al lenguaje máquina que es 1 y ceros.
+
+83
+00:10:44.910 --> 00:10:50.869
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces, ¿qué pasa que, como nosotros, como humanos, nos complicamos la vida es con unos y 0. Es cuando leemos todos seguidos. Acá
+
+84
+00:10:51.100 --> 00:10:57.899
+DEIVIS EDUARD RAMIREZ MARTINEZ: se pasa a trabajar con algo que se llama mnemónicos. Sí, algunos unos mmónicos. Es, por ejemplo, si nosotros queremos sumar
+
+85
+00:10:58.490 --> 00:11:01.830
+DEIVIS EDUARD RAMIREZ MARTINEZ: el Pan Demónico del Add, es la adicción.
+
+86
+00:11:01.940 --> 00:11:05.700
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y aquí todo esto se lo encuentran en los demás documentos.
+
+87
+00:11:06.320 --> 00:11:12.609
+DEIVIS EDUARD RAMIREZ MARTINEZ: A diferencia de los lenguajes de alto nivel como C, Ma Ma Java, Python o cualquiera de estos, si
+
+88
+00:11:12.920 --> 00:11:14.270
+DEIVIS EDUARD RAMIREZ MARTINEZ: y
+
+89
+00:11:14.560 --> 00:11:22.450
+DEIVIS EDUARD RAMIREZ MARTINEZ: el lenguaje soplador es un lenguaje muy cercano a la arquitectura. Aquí podemos vamos a poder tener acceso a esas direcciones de de registro.
+
+90
+00:11:23.670 --> 00:11:28.220
+DEIVIS EDUARD RAMIREZ MARTINEZ: Acá El primer concepto clave, todo archivo que se genere
+
+91
+00:11:28.860 --> 00:11:35.070
+DEIVIS EDUARD RAMIREZ MARTINEZ: con Asembler, se guarda con la extensión, o sea, el asterisco, lo reemplaza por el nombre que ustedes le van a dar, que ahí está la guía
+
+92
+00:11:35.330 --> 00:11:45.149
+DEIVIS EDUARD RAMIREZ MARTINEZ: y con la extensión, punto a Sm: ¿Para qué? Para que el simulador como tal, el que está a la derecha, entienda que estamos hablando de un de un script en aseme
+
+93
+00:11:46.350 --> 00:11:57.309
+DEIVIS EDUARD RAMIREZ MARTINEZ: descripción del laboratorio. Vamos a trabajar con el lenguaje de programación de bajo nivel asembbler siguiendo cada 1 de los pasos del documento, la guía estatal. Entonces
+
+94
+00:11:57.480 --> 00:12:03.430
+DEIVIS EDUARD RAMIREZ MARTINEZ: por eso yo les decía, voy acá a irme a visual. Studio y editor mío.
+
+95
+00:12:09.090 --> 00:12:12.160
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a cerrar este proyecto. Me dan un momento
+
+96
+00:12:15.340 --> 00:12:20.810
+DEIVIS EDUARD RAMIREZ MARTINEZ: vengo a crear un nuevo proyecto, fabricar carpeta.
+
+97
+00:12:25.220 --> 00:12:30.170
+DEIVIS EDUARD RAMIREZ MARTINEZ: Yo los proyectos, suelo guardarlos en mi carpeta de documentos y lo llamo como Project.
+
+98
+00:12:30.660 --> 00:12:35.589
+DEIVIS EDUARD RAMIREZ MARTINEZ: Acabo de crear un una carpeta. Yo que sé que le va a llamar explicación.
+
+99
+00:12:37.070 --> 00:12:37.890
+DEIVIS EDUARD RAMIREZ MARTINEZ: La
+
+100
+00:12:42.380 --> 00:12:46.200
+DEIVIS EDUARD RAMIREZ MARTINEZ: has visto, selecciono la carpeta aquí
+
+101
+00:12:46.920 --> 00:12:51.640
+DEIVIS EDUARD RAMIREZ MARTINEZ: que crean mi proyecto. ¿qué es mi proyecto? Simplemente una carpeta donde voy a colocar toda la información.
+
+102
+00:12:52.230 --> 00:12:56.110
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces, ¿qué les recomiendo yo? Que todo lo que se descargaron. Ténganlo. Acá
+
+103
+00:12:56.240 --> 00:12:58.950
+DEIVIS EDUARD RAMIREZ MARTINEZ: únicamente van a subir 2 archivos, que son los
+
+104
+00:12:59.140 --> 00:13:13.869
+DEIVIS EDUARD RAMIREZ MARTINEZ: los los archivos en Formato Asempler ya les indicaré cómo, Pero aquí yo de ustedes me descargaría todo el material y los pondría dentro de ese esto. Es más que todo una carpeta, O sea, recuérdense que ustedes pueden venir. Si ustedes quieren y miran
+
+105
+00:13:18.230 --> 00:13:29.830
+DEIVIS EDUARD RAMIREZ MARTINEZ: exacto tal cual lo hizo. Tomás. Muchas gracias. Tomás por compartir. Es eso tener estructurado nuestra nuestro nuestro proyecto. Y ahí vamos a tener el material. Continúo con lo que dice en la guía.
+
+106
+00:13:31.880 --> 00:13:35.550
+DEIVIS EDUARD RAMIREZ MARTINEZ: Bueno, la descripción entrega el laboratorio
+
+107
+00:13:36.110 --> 00:13:53.659
+DEIVIS EDUARD RAMIREZ MARTINEZ: ojo, porque aquí viene la principal diferencia de los de pronto, de las demás actividades que ustedes han trabajado en otros cursos. Acá Nosotros no vamos a utilizar esta plantilla, este documento que estamos viendo, este documento más que todo, solamente informativo. Nosotros debemos utilizar
+
+108
+00:13:53.810 --> 00:13:57.569
+DEIVIS EDUARD RAMIREZ MARTINEZ: el archivo que está armado, que se llama plantilla informe
+
+109
+00:13:58.080 --> 00:14:05.990
+DEIVIS EDUARD RAMIREZ MARTINEZ: Okay. Entonces vamos a venirnos. Acá Vamos a decir, profesor, esta plantilla informe, lo voy a descargar.
+
+110
+00:14:06.100 --> 00:14:07.540
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a guardarlo
+
+111
+00:14:12.440 --> 00:14:17.249
+DEIVIS EDUARD RAMIREZ MARTINEZ: dentro de este proyecto que acaba de crear, que mi carpeta se llama Project, y
+
+112
+00:14:17.450 --> 00:14:24.780
+DEIVIS EDUARD RAMIREZ MARTINEZ: la carpeta. Creo que explicación. Creo que lo llaman explicación. Ejemplo explicación. Lab Acá por la fecha, lo saco
+
+113
+00:14:25.120 --> 00:14:26.370
+DEIVIS EDUARD RAMIREZ MARTINEZ: y lo guardo acá
+
+114
+00:14:29.520 --> 00:14:32.589
+DEIVIS EDUARD RAMIREZ MARTINEZ: que es un archivo. Mark Down es un archivo que facilita.
+
+115
+00:14:33.900 --> 00:14:38.560
+DEIVIS EDUARD RAMIREZ MARTINEZ: Es un archivo que después nos va a permitir. Es un formato perdón que nos va a permitir guardar
+
+116
+00:14:39.850 --> 00:14:42.700
+DEIVIS EDUARD RAMIREZ MARTINEZ: el informe que nosotros vamos a ir estando haciendo.
+
+117
+00:14:42.970 --> 00:14:46.880
+DEIVIS EDUARD RAMIREZ MARTINEZ: acá se actualizan. Este es el archivo y está la información que está ahí.
+
+118
+00:14:47.080 --> 00:14:50.150
+DEIVIS EDUARD RAMIREZ MARTINEZ: Esto puede ser un poco confuso, porque lo ven así.
+
+119
+00:14:50.880 --> 00:14:56.510
+DEIVIS EDUARD RAMIREZ MARTINEZ: Pero yo lo convierto en P. D. F,
+
+120
+00:14:56.630 --> 00:15:03.790
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y este archivo Mardown es el que deben utilizar para resolver todo el laboratorio listo.
+
+121
+00:15:03.950 --> 00:15:14.459
+DEIVIS EDUARD RAMIREZ MARTINEZ: Se ve así como muy complicado. Pero básicamente, para que me para que me expliquen. Yo tengo una extensión que una, un plugins que van a a extensiones y están dando un plugin cualquiera que que permita convertir en P. D. F,
+
+122
+00:15:14.760 --> 00:15:23.030
+DEIVIS EDUARD RAMIREZ MARTINEZ: Un Archivo Matado Archivo Pdf Aquí está ejecutándose el Plugin, y el resultado me lo plantea acá
+
+123
+00:15:23.620 --> 00:15:30.029
+DEIVIS EDUARD RAMIREZ MARTINEZ: este. Este Este es el documento que realmente me tiene que entregar en la actividad en plataforma.
+
+124
+00:15:30.350 --> 00:15:36.489
+DEIVIS EDUARD RAMIREZ MARTINEZ: junto con los archivos que van a estar cargados en el repositorio de ustedes, de Github o Gith Lab.
+
+125
+00:15:36.610 --> 00:15:37.670
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces.
+
+126
+00:15:38.020 --> 00:15:48.649
+DEIVIS EDUARD RAMIREZ MARTINEZ: si pensamos sí o sí, tienen que tener una cuenta en Github. Es una cuenta. Eso es un repositorio que, como yo, les recomendaba al inicio del curso como futuros profesionales, deben tener sí o sí conocimiento en Gib.
+
+127
+00:15:48.940 --> 00:16:01.230
+DEIVIS EDUARD RAMIREZ MARTINEZ: Para aquellos que de pronto no sepan, ahorita. Yo les explico porque tampoco es tan complicado, o sea, yo no les les pido que en este momento se vuelvan expertos en Yihab. Es cuestión de arrastrar y soltar archivos allá, ¿sí? Dime. Tomás.
+
+128
+00:16:01.800 --> 00:16:03.260
+Thomas Alfonso Jaramillo Meneses: La profe buenas noches.
+
+129
+00:16:03.710 --> 00:16:05.270
+DEIVIS EDUARD RAMIREZ MARTINEZ: Dime buenas noches, Tomás.
+
+130
+00:16:05.270 --> 00:16:16.370
+Thomas Alfonso Jaramillo Meneses: O sea, según lo que estoy entendiendo, en lugar de nosotros ahora, hacer un documento en App o en lo que sea nada más. Lo tenemos que hacer ahí mismo en ese archivo Mcdown.
+
+131
+00:16:17.670 --> 00:16:18.150
+DEIVIS EDUARD RAMIREZ MARTINEZ: Total.
+
+132
+00:16:18.570 --> 00:16:20.360
+Thomas Alfonso Jaramillo Meneses: Okay! Perfecto. Profe.
+
+133
+00:16:20.890 --> 00:16:23.270
+DEIVIS EDUARD RAMIREZ MARTINEZ: Lo conviertan en Pdf, y eso es lo que me envían.
+
+134
+00:16:23.620 --> 00:16:24.370
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿qué.
+
+135
+00:16:24.960 --> 00:16:26.440
+Thomas Alfonso Jaramillo Meneses: Ah, listo! Listo.
+
+136
+00:16:26.440 --> 00:16:31.879
+DEIVIS EDUARD RAMIREZ MARTINEZ: Pdf van los enlaces al repositorio donde están los archivos asempler resultantes de la práctica.
+
+137
+00:16:34.260 --> 00:16:36.030
+DEIVIS EDUARD RAMIREZ MARTINEZ: Sí, sigo avanzando con esto.
+
+138
+00:16:36.390 --> 00:16:38.269
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces ten en cuenta que acá,
+
+139
+00:16:38.370 --> 00:16:43.420
+DEIVIS EDUARD RAMIREZ MARTINEZ: voy a cerrar, o más bien, voy a abrir. Acá y esto lo voy a abrir en al lado.
+
+140
+00:16:44.760 --> 00:16:46.730
+DEIVIS EDUARD RAMIREZ MARTINEZ: voy a guardar esto para que no entendamos.
+
+141
+00:16:47.600 --> 00:17:01.010
+DEIVIS EDUARD RAMIREZ MARTINEZ: Si ustedes miran acá nombre del estudiante, ustedes vienen acá y simplemente colocan Davis Eduard Ramírez Martínez.
+
+142
+00:17:04.750 --> 00:17:10.609
+DEIVIS EDUARD RAMIREZ MARTINEZ: Si Si yo vuelvo y ejecuto el mismo proceso a ver la fecha, porque la de hoy, y estamos a 24
+
+143
+00:17:11.849 --> 00:17:20.939
+DEIVIS EDUARD RAMIREZ MARTINEZ: 0, 8 20, 26 el curso. Y aquí es donde ustedes me tienen que pegar el enlace al repositorio.
+
+144
+00:17:21.530 --> 00:17:25.519
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces voy a explicar lo del Github.
+
+145
+00:17:28.530 --> 00:17:32.000
+DEIVIS EDUARD RAMIREZ MARTINEZ: si vienen aquí en Hub, ya con la cuenta creada
+
+146
+00:17:34.410 --> 00:17:38.249
+DEIVIS EDUARD RAMIREZ MARTINEZ: en este momento, pues yo tengo por las cookies. Ya tengo autenticados.
+
+147
+00:17:38.820 --> 00:17:46.840
+DEIVIS EDUARD RAMIREZ MARTINEZ: Simplemente le van a decir. Nuevo, laboratorio nuevo, repositorio acá le colocan el nombre. Lo que sé de laboratorio.
+
+148
+00:17:48.760 --> 00:17:56.649
+DEIVIS EDUARD RAMIREZ MARTINEZ: estructura, computadores, un ejemplo nombre bien vigente computadores.
+
+149
+00:17:57.030 --> 00:17:57.750
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿qué
+
+150
+00:17:58.890 --> 00:18:05.439
+DEIVIS EDUARD RAMIREZ MARTINEZ: dice que está disponible, claro? Normalmente casi siempre va a estar disponible. Digo, por qué? Porque el nombre de usuario es es esa parte
+
+151
+00:18:06.510 --> 00:18:15.749
+DEIVIS EDUARD RAMIREZ MARTINEZ: de la raíz del directorio donde está creado el repositorio que nadie más va a tener su nombre de usuario, entonces es único. Y me dice: Ok, está disponible perfecto.
+
+152
+00:18:17.340 --> 00:18:20.639
+DEIVIS EDUARD RAMIREZ MARTINEZ: Aquí dejo todo eso por defecto, y le digo crear repositorio.
+
+153
+00:18:23.340 --> 00:18:30.830
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y después simplemente me van a estar agregando los los archivos que van a estar resultando?
+
+154
+00:18:30.980 --> 00:18:31.750
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿sí?
+
+155
+00:18:32.380 --> 00:18:33.730
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y yo me vengo acá.
+
+156
+00:18:35.420 --> 00:18:39.479
+DEIVIS EDUARD RAMIREZ MARTINEZ: Yo no voy a hacer nada de esto porque yo necesito es subir archivos.
+
+157
+00:18:40.680 --> 00:18:42.310
+DEIVIS EDUARD RAMIREZ MARTINEZ: Lo explicaré más adelante.
+
+158
+00:18:42.630 --> 00:18:49.930
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ah, sí, Entonces regreso acá al documento en Word, ya sé,
+
+159
+00:18:50.080 --> 00:18:54.450
+DEIVIS EDUARD RAMIREZ MARTINEZ: voy a seguir con las indicaciones en World, y después entramos a mirar la la parte de la plantilla.
+
+160
+00:18:55.050 --> 00:18:55.820
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿sí?
+
+161
+00:18:56.270 --> 00:19:00.440
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces hasta acá. Ese es el documento que deben.
+
+162
+00:19:01.070 --> 00:19:09.649
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ah, bueno, estos días laboratorios para saber cómo ir el haciendo el paso a paso. La plantilla del informe es donde ustedes me tienen que presentar. Lo primero que debes hacer es el enviar
+
+163
+00:19:09.850 --> 00:19:13.179
+DEIVIS EDUARD RAMIREZ MARTINEZ: los 2 scripts en formato a simpler
+
+164
+00:19:13.810 --> 00:19:27.760
+DEIVIS EDUARD RAMIREZ MARTINEZ: el programa base, Y por favor, aquí sí quiero que lo guarden con estos nombres. El programa base ya viene con ese nombre programa, base, pero para yo poder distinguir qué fue el archivo original que yo les pasé. Y cuál fue el archivo final que ustedes me enviaron.
+
+165
+00:19:27.760 --> 00:19:34.520
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ese archivo final tiene que tener ese nombre: programa guion deprisa optimizado y los 2 archivos deben estar en en Github.
+
+166
+00:19:35.970 --> 00:19:36.880
+DEIVIS EDUARD RAMIREZ MARTINEZ: Listo.
+
+167
+00:19:37.290 --> 00:19:45.959
+DEIVIS EDUARD RAMIREZ MARTINEZ: Lo único que va a ir en Yihad. Dicho de otra forma, son el programa base que ya lo tienen, que es el que yo les doy para la actividad y ese programa que ustedes van a optimizar
+
+168
+00:19:47.060 --> 00:20:00.859
+DEIVIS EDUARD RAMIREZ MARTINEZ: para el desarrollo de la actividad que lo van a denominar. Programa optimizado tanto el programa guion base, como el programa al archivo programa guion optimizado. ¿van a tener punto a Sm la extensión listo?
+
+169
+00:20:01.290 --> 00:20:15.619
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿qué pasa si no me suben los archivos al repositorio, Pues que yo no voy a poder ejecutarlo yo normalmente. ¿qué hago cuando evalúo la actividad, Yo descargo o clono, el repositorio ejecuto. Esos archivos en el simulador conectan esto, que tengo acá en pantalla al lado derecho.
+
+170
+00:20:16.380 --> 00:20:24.659
+DEIVIS EDUARD RAMIREZ MARTINEZ: y compruebo si lo que ustedes presentan en el informe que si ese archivo Mark Down que van a convertir en Pdf es coherente con lo que me presentan en el informe
+
+171
+00:20:24.900 --> 00:20:26.970
+DEIVIS EDUARD RAMIREZ MARTINEZ: listo y colocó en rojo
+
+172
+00:20:27.160 --> 00:20:44.299
+DEIVIS EDUARD RAMIREZ MARTINEZ: para que la actividad sea evaluada. Deben estar cargados, porque si no, yo no puedo hacer esa esa con esa clonación del repositorio de ustedes y hacer la validación posteriori en en en mi simulador, y verificar que es lo que hicieron, si es coherente o no, es coherente con lo presentado listo.
+
+173
+00:20:46.330 --> 00:20:48.510
+DEIVIS EDUARD RAMIREZ MARTINEZ: entonces dicho de una forma más clara.
+
+174
+00:20:48.650 --> 00:20:54.600
+DEIVIS EDUARD RAMIREZ MARTINEZ: si no me presentan o suscripto en el repositorio. Así me viene el informe, pues ahí ya van a estar perdiendo mucha nota. Dime Schneider.
+
+175
+00:20:54.840 --> 00:21:00.299
+Esneyder Rene Vargas Rico: O sea, en Gigat. Subimos tanto. El programa hace
+
+176
+00:21:00.810 --> 00:21:07.409
+Esneyder Rene Vargas Rico: para que eso no se pueda leer el código como lo que pasamos, o sea, es el mismo, pero en P, D, F, también lo subimos.
+
+177
+00:21:08.050 --> 00:21:15.530
+DEIVIS EDUARD RAMIREZ MARTINEZ: No deben de Hub, solamente 2 archivos. En punto, asemplear acá está el que.
+
+178
+00:21:15.530 --> 00:21:18.279
+Esneyder Rene Vargas Rico: Pelota y el que nosotros utilizamos.
+
+179
+00:21:18.280 --> 00:21:20.090
+DEIVIS EDUARD RAMIREZ MARTINEZ: Vamos a la de A.
+
+180
+00:21:20.090 --> 00:21:20.780
+Esneyder Rene Vargas Rico: Ya no te.
+
+181
+00:21:20.780 --> 00:21:21.460
+DEIVIS EDUARD RAMIREZ MARTINEZ: En el.
+
+182
+00:21:21.460 --> 00:21:29.270
+Esneyder Rene Vargas Rico: Adicional a eso ya casi se coloca, se pasa Pdf. En pocas palabras, tenemos que subir 3,
+
+183
+00:21:29.470 --> 00:21:33.060
+Esneyder Rene Vargas Rico: o sea, todos y 1 directamente.
+
+184
+00:21:33.460 --> 00:21:39.999
+DEIVIS EDUARD RAMIREZ MARTINEZ: Pero el Pdf como tal siquiera lo pueden subir al repositorio. No hay ningún problema. Pero el Pdf, si me lo deben enviar a través de la plataforma.
+
+185
+00:21:40.000 --> 00:21:41.600
+Esneyder Rene Vargas Rico: Okay? Sí, eso lo vamos a ver.
+
+186
+00:21:42.300 --> 00:21:56.069
+DEIVIS EDUARD RAMIREZ MARTINEZ: Porque si me regreso acá a nuevamente, acá este era el campo que yo le estaba pidiendo, acá que es esto que está acá agregar el enlace. Acá. Entonces, supongamos de que ese enlace que ustedes crearon. Voy a tomarlo, por ejemplo, que sea este que acaba de crear.
+
+187
+00:21:56.620 --> 00:22:01.430
+DEIVIS EDUARD RAMIREZ MARTINEZ: Le vengo acá y simplemente colocó acá el enlace.
+
+188
+00:22:02.440 --> 00:22:06.559
+DEIVIS EDUARD RAMIREZ MARTINEZ: Por favor, tómese la precaución previa antes de enviar la sidras
+
+189
+00:22:08.090 --> 00:22:12.230
+DEIVIS EDUARD RAMIREZ MARTINEZ: de verificar que el enlace esté esté accesible dime natal.
+
+190
+00:22:16.250 --> 00:22:19.850
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ok, Entonces miren cómo vamos enciende. Entonces ustedes comienzan
+
+191
+00:22:20.380 --> 00:22:27.390
+DEIVIS EDUARD RAMIREZ MARTINEZ: en el hipotético. Caso del Icam. Ya miramos qué es lo que tienen que hacer en el laboratorio. Lo voy a convertir nuevamente otra vez a Pdf.
+
+192
+00:22:27.790 --> 00:22:32.400
+DEIVIS EDUARD RAMIREZ MARTINEZ: este Archivo M. Xdound. Y aquí me va a presentar los ajustes que yo estoy haciendo
+
+193
+00:22:33.420 --> 00:22:40.040
+DEIVIS EDUARD RAMIREZ MARTINEZ: listo. Mira, aquí ya aparece el nombre mío, aquí aparece el enlace. Me va a llevar acá. Y esto es lo que yo quiero
+
+194
+00:22:40.840 --> 00:22:43.549
+DEIVIS EDUARD RAMIREZ MARTINEZ: para revisar la actividad. Me entendieron
+
+195
+00:22:43.810 --> 00:22:45.879
+DEIVIS EDUARD RAMIREZ MARTINEZ: todo esto. Está en el archivo Mcdown.
+
+196
+00:22:48.860 --> 00:22:57.249
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ahora bien, miremos. Voy a ampliar un poco esto. Ya acá esto control más. Sabes
+
+197
+00:22:57.450 --> 00:23:04.150
+DEIVIS EDUARD RAMIREZ MARTINEZ: que es lo mismo que está al lado derecho, o sea, al izquierdo, es lo mismo que está al lado derecho el derecho en P. D, F, Y lo transforma a tomar. Do.
+
+198
+00:23:04.530 --> 00:23:08.229
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a utilizar por ahora esto para que se vea mas grande. Acá
+
+199
+00:23:08.840 --> 00:23:13.789
+DEIVIS EDUARD RAMIREZ MARTINEZ: Aquí empezamos a ver en sí, Ya tenemos la cuenta creada. Empezamos a desarrollar esto
+
+200
+00:23:13.980 --> 00:23:23.860
+DEIVIS EDUARD RAMIREZ MARTINEZ: adjunte aquí las facturas de la pantalla de ejecución del programa base. Hasta acá ustedes no han hecho absolutamente nada. Yo les dije: el programa base.
+
+201
+00:23:24.030 --> 00:23:28.630
+DEIVIS EDUARD RAMIREZ MARTINEZ: o sea, no han programado perdón, re reformulo, no han programado.
+
+202
+00:23:28.800 --> 00:23:33.850
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces, ¿qué pasa este programa base. Yo lo tengo que abrir en el simulador. Me vengo acá. Al simulador.
+
+203
+00:23:34.480 --> 00:23:36.400
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ah, pero espera que yo no lo he descargado
+
+204
+00:23:41.640 --> 00:23:43.050
+DEIVIS EDUARD RAMIREZ MARTINEZ: una nueva base.
+
+205
+00:23:43.960 --> 00:23:45.410
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a guardarlo
+
+206
+00:23:48.800 --> 00:23:52.210
+DEIVIS EDUARD RAMIREZ MARTINEZ: mismo. Proyecto. Explicación. Lab perfecto. Me
+
+207
+00:23:52.640 --> 00:23:56.650
+DEIVIS EDUARD RAMIREZ MARTINEZ: acá ya verifico que me haya descargado.
+
+208
+00:23:57.470 --> 00:24:01.460
+DEIVIS EDUARD RAMIREZ MARTINEZ: Aquí ya está a punto de Sfembler, pero entonces me vengo. Acá
+
+209
+00:24:02.860 --> 00:24:07.690
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ahora empieza a utilizar el simulador. Voy a decirle que me que me abra un archivo
+
+210
+00:24:09.260 --> 00:24:11.740
+DEIVIS EDUARD RAMIREZ MARTINEZ: que está en esa ubicación que yo acabo de crear.
+
+211
+00:24:15.570 --> 00:24:17.209
+DEIVIS EDUARD RAMIREZ MARTINEZ: A ver. Baby
+
+212
+00:24:24.630 --> 00:24:25.770
+DEIVIS EDUARD RAMIREZ MARTINEZ: los comments.
+
+213
+00:24:32.580 --> 00:24:41.870
+DEIVIS EDUARD RAMIREZ MARTINEZ: Yo he encontrado forma de desactivar el onedrive, porque Ese es el problema. Davis One drive Documents en
+
+214
+00:24:47.000 --> 00:24:53.280
+DEIVIS EDUARD RAMIREZ MARTINEZ: oye esta explicación, la
+
+215
+00:24:58.050 --> 00:25:02.339
+DEIVIS EDUARD RAMIREZ MARTINEZ: el que es este, y abren el programa básico
+
+216
+00:25:05.350 --> 00:25:10.119
+DEIVIS EDUARD RAMIREZ MARTINEZ: con el simulador. No se preocupen que si quieren. Como el miércoles nos volvemos a ver Les detalle un poco más.
+
+217
+00:25:10.560 --> 00:25:12.650
+DEIVIS EDUARD RAMIREZ MARTINEZ: entonces me regreso. Acá
+
+218
+00:25:16.910 --> 00:25:23.219
+DEIVIS EDUARD RAMIREZ MARTINEZ: dicen, adjunten las capturas de pantalla de la ejecución del programa base utilizando las herramientas de Mac
+
+219
+00:25:23.950 --> 00:25:33.730
+DEIVIS EDUARD RAMIREZ MARTINEZ: Mars. Como tal tiene estas herramientas Miss instruction contar todo esto. Entonces me regreso al simulador. Acá
+
+220
+00:25:35.610 --> 00:25:37.999
+DEIVIS EDUARD RAMIREZ MARTINEZ: y las herramientas están acá tools
+
+221
+00:25:39.970 --> 00:25:43.810
+DEIVIS EDUARD RAMIREZ MARTINEZ: a ver lo mue me muevo un poco para acá Meet.
+
+222
+00:25:44.120 --> 00:25:49.689
+DEIVIS EDUARD RAMIREZ MARTINEZ: Instrucción Counter, o contador de instrucciones o estadísticas de instrucciones, o el Meet Jon Rail.
+
+223
+00:25:50.330 --> 00:25:58.800
+DEIVIS EDUARD RAMIREZ MARTINEZ: Todas estas 3 raciones o o herramientas u opciones de marca están que están en el numeral. Uno punto 1. Las encuentran acá. En Tools. Miren, acá. Está
+
+224
+00:25:59.090 --> 00:26:01.499
+DEIVIS EDUARD RAMIREZ MARTINEZ: 1 000 X Ray.
+
+225
+00:26:01.790 --> 00:26:04.559
+DEIVIS EDUARD RAMIREZ MARTINEZ: Instrucción Counter, esta que está acá
+
+226
+00:26:04.770 --> 00:26:13.360
+DEIVIS EDUARD RAMIREZ MARTINEZ: y la otra es destrucción. Sparitis. Acá Entonces esa son
+
+227
+00:26:14.010 --> 00:26:18.220
+DEIVIS EDUARD RAMIREZ MARTINEZ: las capturas que ustedes me deben ejecutar perdón, agregar acá
+
+228
+00:26:19.560 --> 00:26:22.980
+DEIVIS EDUARD RAMIREZ MARTINEZ: adjunta acá las capturas. Ustedes cargan esas herramientas.
+
+229
+00:26:23.130 --> 00:26:31.150
+DEIVIS EDUARD RAMIREZ MARTINEZ: Las compilan, la ejecutan y me las agregan acá listo. Acá simplemente es
+
+230
+00:26:31.320 --> 00:26:37.509
+DEIVIS EDUARD RAMIREZ MARTINEZ: mostrar el resultado de haber cargado ese archivo de programa base ejecutando estas herramientas que tiene el mismo simulador
+
+231
+00:26:38.370 --> 00:26:41.999
+DEIVIS EDUARD RAMIREZ MARTINEZ: listo, avanza un poco más.
+
+232
+00:26:43.030 --> 00:26:49.339
+DEIVIS EDUARD RAMIREZ MARTINEZ: Acá hay una opción que se llama identificación de riesgos hazard si recuérdese que nos los hazard.
+
+233
+00:26:49.520 --> 00:26:54.959
+DEIVIS EDUARD RAMIREZ MARTINEZ: normalmente pueden ser aquellos problemas cuando no se producen los hits. Y toda esta parte.
+
+234
+00:26:57.110 --> 00:27:03.650
+DEIVIS EDUARD RAMIREZ MARTINEZ: Mhm deben identificar cuál es la destrucción causante
+
+235
+00:27:04.060 --> 00:27:11.740
+DEIVIS EDUARD RAMIREZ MARTINEZ: y cuál es la instrucción que se afecta Esto de L. W. Esto de Variable. Esto que parece complicado.
+
+236
+00:27:12.140 --> 00:27:23.250
+DEIVIS EDUARD RAMIREZ MARTINEZ: ese material lo encuentran dentro de los archivos de las instrucciones y dentro del mar voy a abrir acá
+
+237
+00:27:26.460 --> 00:27:31.150
+DEIVIS EDUARD RAMIREZ MARTINEZ: y voy a abrir el otro porque allí les pase.
+
+238
+00:27:33.520 --> 00:27:38.769
+DEIVIS EDUARD RAMIREZ MARTINEZ: o sea, todos esos documentos. Realmente yo se los coloco porque los van a tener que utilizar
+
+239
+00:27:39.120 --> 00:27:46.519
+DEIVIS EDUARD RAMIREZ MARTINEZ: un ejemplo, esta guía rápida de marzo. Pero tranquilo que vamos a hacer un ejercicio práctico.
+
+240
+00:27:47.290 --> 00:27:53.740
+DEIVIS EDUARD RAMIREZ MARTINEZ: Indica esto esto. Esto que está? Este es el lenguaje mnemotécnico que yo les decía Add, es para sumar
+
+241
+00:27:55.640 --> 00:28:01.270
+DEIVIS EDUARD RAMIREZ MARTINEZ: ya a ver yo qué fue lo que abrí. Ah, no, esto. Acá.
+
+242
+00:28:01.440 --> 00:28:11.459
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ese es el operador de la suma. Recuérdese que la suma la resta o todo esto lo hace la Adu, la unidad aritmético. Pero para que no se compliquen, ¿A qué estoy teniendo
+
+243
+00:28:11.760 --> 00:28:13.220
+DEIVIS EDUARD RAMIREZ MARTINEZ: unas variables?
+
+244
+00:28:13.440 --> 00:28:15.749
+DEIVIS EDUARD RAMIREZ MARTINEZ: Te estoy diciendo, básicamente.
+
+245
+00:28:16.000 --> 00:28:28.930
+DEIVIS EDUARD RAMIREZ MARTINEZ: el valor que está en en el registro. T. Uno súmelo que está en el registro de 2 y guárdelo en el registro es el Tsuv 0. Eso es básicamente lo que está haciendo eso.
+
+246
+00:28:29.390 --> 00:28:38.720
+DEIVIS EDUARD RAMIREZ MARTINEZ: Cada 1 de estos comandos tiene unas funcionalidades específicas. Lógicamente, acá estamos hablando de suma casándonos de resta Aquí estamos hablando de los operadores.
+
+247
+00:28:40.040 --> 00:28:43.619
+DEIVIS EDUARD RAMIREZ MARTINEZ: El a el Org, sí que son operadores lógicos
+
+248
+00:28:44.140 --> 00:28:48.829
+DEIVIS EDUARD RAMIREZ MARTINEZ: por sí, eso lo que estaba explicando en la clase previa a esta la de lógica computacional.
+
+249
+00:28:49.390 --> 00:28:50.200
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿no?
+
+250
+00:28:50.390 --> 00:28:58.560
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y acá hay más comandos alguna forma cuando se cuando se necesita hacer una carga de datos o una transferencia de datos. Sí,
+
+251
+00:28:59.390 --> 00:29:07.180
+DEIVIS EDUARD RAMIREZ MARTINEZ: se debe utilizar esto. L. W significa lo cargue, cargue el valor que está almacenado en este registro
+
+252
+00:29:07.320 --> 00:29:11.879
+DEIVIS EDUARD RAMIREZ MARTINEZ: en la en la memoria. Esta y su me dijeron a Greglo paseero.
+
+253
+00:29:12.060 --> 00:29:25.469
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces acá. Hay una serie de ejemplos de transferencia, una serie de ejemplos o de comandos utilizados para las instrucciones de control de flujo. Aquí hay unas instru unas instrucciones adicionales, como pseudo, instrucciones de mover, de limpiar.
+
+254
+00:29:25.600 --> 00:29:31.070
+DEIVIS EDUARD RAMIREZ MARTINEZ: Acá Hay unos ejemplos en cuanto a la parte de datos. Esto En cuanto a las instrucciones de Meet
+
+255
+00:29:31.280 --> 00:29:42.489
+DEIVIS EDUARD RAMIREZ MARTINEZ: en cuanto a las instrucciones del simulador, el tutorial. Básicamente, ya hemos hablado de algunas de ellas: tener Java Room Environment o el entorno de de Java instalado
+
+256
+00:29:43.430 --> 00:29:53.620
+DEIVIS EDUARD RAMIREZ MARTINEZ: la edición, el la interfaz se divide en 3 partes. La parte de edición la parte de ejecución y consola, que son estas que están acá
+
+257
+00:29:55.350 --> 00:30:08.490
+DEIVIS EDUARD RAMIREZ MARTINEZ: a ver donde yo tengo abierto el donde tengo abierto el simulador, no cerré lo tenía cerrado.
+
+258
+00:30:14.390 --> 00:30:20.740
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces la interfaz está la parte de la edición. Esta es la parte de la ejecución y está la parte de resultado.
+
+259
+00:30:22.080 --> 00:30:24.109
+DEIVIS EDUARD RAMIREZ MARTINEZ: Yo juraría que yo tenía abierto esto.
+
+260
+00:30:25.160 --> 00:30:27.009
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a volver a cargar.
+
+261
+00:30:35.440 --> 00:30:40.200
+DEIVIS EDUARD RAMIREZ MARTINEZ: No voy a cargar el archivo base, Voy a colocar 1 de estos, para no irme tanto laboratorio.
+
+262
+00:30:40.800 --> 00:30:46.719
+DEIVIS EDUARD RAMIREZ MARTINEZ: Básicamente acá tenemos esto. Y esto más que todo para explicarle esto, que estábamos mostrando ahorita
+
+263
+00:30:48.320 --> 00:30:56.440
+DEIVIS EDUARD RAMIREZ MARTINEZ: las 3 interfaces interfaz de edición, interfaz de ejecución, interfaz de resultado de consola con estas que tenemos acá
+
+264
+00:30:56.590 --> 00:31:00.269
+DEIVIS EDUARD RAMIREZ MARTINEZ: edición, ejecución y resultado de consola
+
+265
+00:31:00.740 --> 00:31:05.169
+DEIVIS EDUARD RAMIREZ MARTINEZ: cómo se ejecuta ojo con esto? ¿cómo se ejecuta un
+
+266
+00:31:05.640 --> 00:31:10.960
+DEIVIS EDUARD RAMIREZ MARTINEZ: un un escrito en la Asamblea? Primero hay que tú
+
+267
+00:31:11.220 --> 00:31:14.029
+DEIVIS EDUARD RAMIREZ MARTINEZ: compilarlo y después, si se ejecuta
+
+268
+00:31:14.170 --> 00:31:21.740
+DEIVIS EDUARD RAMIREZ MARTINEZ: cómo se hace la compilación. Por ejemplo. Tengo este ejemplo. Vengo acá donde dice Room, y le digo, ok ensámblelo.
+
+269
+00:31:23.850 --> 00:31:32.580
+DEIVIS EDUARD RAMIREZ MARTINEZ: Si aquí el proceso de ensamblado da exitoso darse cuenta que aquí resultó operación completamente exitosamente ya después de ensamblado.
+
+270
+00:31:32.930 --> 00:31:34.380
+DEIVIS EDUARD RAMIREZ MARTINEZ: lo ejecutan.
+
+271
+00:31:34.640 --> 00:31:35.560
+DEIVIS EDUARD RAMIREZ MARTINEZ: R o M.
+
+272
+00:31:36.030 --> 00:31:37.380
+DEIVIS EDUARD RAMIREZ MARTINEZ: Le dicen go.
+
+273
+00:31:37.990 --> 00:31:51.159
+DEIVIS EDUARD RAMIREZ MARTINEZ: La diferencia entre Go. Y este es que el mismo nombre lo dice. Uno lo ejecuta. Paso a paso. Cada línea está haciendo que está ahí, lo va ejecutando, paso a paso, o el otro lo va ejecutando de forma completa. Vengo a la parte de edición. Esto que está Acá
+
+274
+00:31:52.860 --> 00:31:58.779
+DEIVIS EDUARD RAMIREZ MARTINEZ: es un programa hecho en Asembler, que básicamente imprime un número que está almacenado.
+
+275
+00:31:59.570 --> 00:32:04.529
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ya les explicaré un poco más por de Asemble. Pero recuérdese que ahí está el código de asembler.
+
+276
+00:32:05.110 --> 00:32:07.739
+DEIVIS EDUARD RAMIREZ MARTINEZ: Acá está definiendo una cadena mundo.
+
+277
+00:32:08.480 --> 00:32:14.770
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces vuelvo lo ensamblo después de ensamblado. Lo corro, ¿sí?
+
+278
+00:32:15.390 --> 00:32:22.219
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y este programa sencillo es el famoso Hola, mundo. Acá. Está el Hola, mundo, pero en Asembler, esto esto fue lo que hizo
+
+279
+00:32:25.090 --> 00:32:26.440
+DEIVIS EDUARD RAMIREZ MARTINEZ: en el capítulo.
+
+280
+00:32:26.750 --> 00:32:33.010
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ustedes van a tener un programa en el cual simplemente tendrán que analizarlo, analizarlo
+
+281
+00:32:33.570 --> 00:32:35.169
+DEIVIS EDUARD RAMIREZ MARTINEZ: porque yo ya se los doy.
+
+282
+00:32:35.680 --> 00:32:46.939
+DEIVIS EDUARD RAMIREZ MARTINEZ: Yo ya se lo doy y ustedes deben hacerle una modificación al lenguaje. Pero para optimizar ese resultado, ¿cómo van a saber ustedes que la optimización se da con base en esas capturas que están pegando.
+
+283
+00:32:48.400 --> 00:32:50.559
+DEIVIS EDUARD RAMIREZ MARTINEZ: Los voy leyendo deme un momento
+
+284
+00:32:59.340 --> 00:33:07.569
+DEIVIS EDUARD RAMIREZ MARTINEZ: y dónde me quedé nos pasó a cabo que no veo.
+
+285
+00:33:10.200 --> 00:33:11.580
+DEIVIS EDUARD RAMIREZ MARTINEZ: Es eso. Tomás
+
+286
+00:33:14.580 --> 00:33:21.890
+DEIVIS EDUARD RAMIREZ MARTINEZ: lo que está como está dando el compañero de Tomás. Es una de las capturas que da al ejecutar el programa base a través de esas herramientas.
+
+287
+00:33:22.780 --> 00:33:26.620
+DEIVIS EDUARD RAMIREZ MARTINEZ: porque tengan en cuenta que eso es un simulador listo.
+
+288
+00:33:45.620 --> 00:33:46.720
+DEIVIS EDUARD RAMIREZ MARTINEZ: preguntas.
+
+289
+00:33:49.620 --> 00:34:00.780
+DEIVIS EDUARD RAMIREZ MARTINEZ: Dice que esto parece complicado, pero realmente no lo es. La próxima clase. Vamos a ver algo de a simple cuando usted ya entienda la lógica de cómo funciona siempre. Ya después. Es cuestión de cargar el el documento. Venirse acá. Aplicar esto.
+
+290
+00:34:01.170 --> 00:34:02.400
+DEIVIS EDUARD RAMIREZ MARTINEZ: el
+
+291
+00:34:02.590 --> 00:34:07.670
+DEIVIS EDUARD RAMIREZ MARTINEZ: esto que está, acá. Y esto es lo que internamente hemos visto en la gráfica de las diapositivas. Mire
+
+292
+00:34:08.030 --> 00:34:14.470
+DEIVIS EDUARD RAMIREZ MARTINEZ: aquí tenemos una luz, Tenemos una unidad de registro, unas instrucciones de memoria, un un program counter o un contador de programas.
+
+293
+00:34:14.780 --> 00:34:17.579
+DEIVIS EDUARD RAMIREZ MARTINEZ: una memoria de datos, una salida. Y esto
+
+294
+00:34:21.449 --> 00:34:27.300
+DEIVIS EDUARD RAMIREZ MARTINEZ: tranquilos que vamos a trabajar 2 sesiones: excelencia. Me pregunta
+
+295
+00:34:28.800 --> 00:34:35.480
+DEIVIS EDUARD RAMIREZ MARTINEZ: cuál es la extensión de Pdf Okay, te explico celeste
+
+296
+00:34:36.920 --> 00:34:43.809
+DEIVIS EDUARD RAMIREZ MARTINEZ: y muchas porque tengan en cuenta que, de acuerdo al editor que ustedes utilizan a la idea que ustedes utilice, van a poder encontrar una u otra forma.
+
+297
+00:34:44.540 --> 00:34:47.239
+DEIVIS EDUARD RAMIREZ MARTINEZ: Si yo vengo acá a la extensión.
+
+298
+00:34:49.239 --> 00:34:59.240
+DEIVIS EDUARD RAMIREZ MARTINEZ: reiniciar algunas extensiones. Normalmente esto pasa cuando las empresas que producen esos plugins o esas extensiones han hecho algunas actualizaciones.
+
+299
+00:35:00.590 --> 00:35:05.810
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y si bien recuerdo haber venido, lo busco porque no me acuerdo, creo que es este
+
+300
+00:35:11.110 --> 00:35:13.709
+DEIVIS EDUARD RAMIREZ MARTINEZ: sí y usted está la extensión
+
+301
+00:35:18.170 --> 00:35:24.529
+DEIVIS EDUARD RAMIREZ MARTINEZ: cuando ustedes la instalan, ahí sí les aparece la opción de de de convertir.
+
+302
+00:35:27.710 --> 00:35:32.349
+DEIVIS EDUARD RAMIREZ MARTINEZ: Sí, es esta, porque yo la tengo instalada. Si no me estuviera. Si me instala, ¿sí?
+
+303
+00:35:32.460 --> 00:35:36.100
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿cómo funciona. Para que se me genere este Pdf. El archivo Smart Down
+
+304
+00:35:36.480 --> 00:35:42.229
+DEIVIS EDUARD RAMIREZ MARTINEZ: está así, entonces lo abren clic, derecho y le dice Armar Down, exportar a Pdf.
+
+305
+00:35:44.840 --> 00:35:48.600
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y esto cuando ustedes ejecutan, acá genera el archivo P. D, F:
+
+306
+00:35:52.560 --> 00:35:59.910
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a decir que me lo abra al lado y aca está entonces recapitulo. Siguiendo con esto.
+
+307
+00:36:00.180 --> 00:36:09.850
+DEIVIS EDUARD RAMIREZ MARTINEZ: acá ustedes tendrán que identificar cuál es el riesgo, o sea en cuál de ese código base de ese programa base Embler, ¿Cómo es que se llama
+
+308
+00:36:11.150 --> 00:36:18.070
+DEIVIS EDUARD RAMIREZ MARTINEZ: programa base en punto A. S. M. D se presenta. Se van a la línea de esta instrucción y dicen cuál
+
+309
+00:36:18.790 --> 00:36:21.359
+DEIVIS EDUARD RAMIREZ MARTINEZ: esto es un ejemplo. No hay hay varios.
+
+310
+00:36:21.510 --> 00:36:24.119
+DEIVIS EDUARD RAMIREZ MARTINEZ: Hay varias líneas de ese programa Samles.
+
+311
+00:36:24.840 --> 00:36:30.080
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ustedes tendrán que mirar porque recuerdan los famosos cuellos de botella.
+
+312
+00:36:32.800 --> 00:36:39.670
+DEIVIS EDUARD RAMIREZ MARTINEZ: A ver simón me pregunta, hay una otra forma de trabajar ese archivo Mckdown que yo, porque yo no lo utilizo
+
+313
+00:36:40.150 --> 00:36:46.170
+DEIVIS EDUARD RAMIREZ MARTINEZ: en visual Studio: ¿Qué editor utilizas limón.
+
+314
+00:37:02.490 --> 00:37:03.480
+DEIVIS EDUARD RAMIREZ MARTINEZ: ninguno
+
+315
+00:37:13.810 --> 00:37:20.700
+DEIVIS EDUARD RAMIREZ MARTINEZ: Okay, cualquiera de esos que que utilices, estoy seguro que va a haber una extensión. Sin embargo.
+
+316
+00:37:21.120 --> 00:37:22.700
+DEIVIS EDUARD RAMIREZ MARTINEZ: cuando ya lo tengas hecho, te
+
+317
+00:37:24.330 --> 00:37:27.860
+DEIVIS EDUARD RAMIREZ MARTINEZ: no conozco, no conozco esos vídeos con los que tú trabajas. Si acaso el Netflix?
+
+318
+00:37:28.330 --> 00:37:35.380
+DEIVIS EDUARD RAMIREZ MARTINEZ: Pues yo, qué haría? Yo sería un poco práctico. ¿me vendría el chat. G, P, T, Le paso el documento más down, y digo que me lo convierta en P. D, F:
+
+319
+00:37:42.550 --> 00:37:50.029
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entienden Por eso, de acuerdo al al entorno de desarrollo que ustedes utilizan. Yo creo que debe haber una extinción que convierta un archivo de Markdown a a P: D,
+
+320
+00:37:51.280 --> 00:37:57.509
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿Y si no hacen lo que yo les digo, pasan ese archivo marcadoun a A, P, D, F,
+
+321
+00:38:03.230 --> 00:38:09.509
+DEIVIS EDUARD RAMIREZ MARTINEZ: Eso bueno, avanza un poco con este formato de informe de actividad.
+
+322
+00:38:11.030 --> 00:38:16.379
+DEIVIS EDUARD RAMIREZ MARTINEZ: Aquí ya vienen algunas preguntas. Aquí tienen que hacer unos códigos cuando ustedes ejecutan el simulador
+
+323
+00:38:16.550 --> 00:38:22.960
+DEIVIS EDUARD RAMIREZ MARTINEZ: les va a mostrar. Es algo acá Aquí tienen que decirle con Ed Tú Meet, ¿sí?
+
+324
+00:38:23.880 --> 00:38:28.310
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y aquí empiezan a ejecutar la simulación, esta simulación.
+
+325
+00:38:28.680 --> 00:38:33.200
+DEIVIS EDUARD RAMIREZ MARTINEZ: La voy a hacer con este archivo base y no con el archivo ejemplo. Ustedes tienen que hacer.
+
+326
+00:38:33.330 --> 00:38:36.560
+DEIVIS EDUARD RAMIREZ MARTINEZ: Básicamente ustedes empiezan a ejecutar esto
+
+327
+00:38:38.460 --> 00:38:42.850
+DEIVIS EDUARD RAMIREZ MARTINEZ: y acá le va a mostrar una serie de resultados.
+
+328
+00:38:50.600 --> 00:38:53.780
+DEIVIS EDUARD RAMIREZ MARTINEZ: Congresen esos resultados que les vaya dando en estas capturas
+
+329
+00:38:57.620 --> 00:39:00.269
+DEIVIS EDUARD RAMIREZ MARTINEZ: es que ustedes van a ir haciendo las capturas
+
+330
+00:39:00.920 --> 00:39:04.219
+DEIVIS EDUARD RAMIREZ MARTINEZ: y la van a ir agregando a ese archivo informe que está acá.
+
+331
+00:39:07.520 --> 00:39:08.540
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces
+
+332
+00:39:10.990 --> 00:39:19.069
+DEIVIS EDUARD RAMIREZ MARTINEZ: 1 1 simplemente escoger abrir el programa base del archivo programa base punto Sm en el en el simulador
+
+333
+00:39:19.500 --> 00:39:20.950
+DEIVIS EDUARD RAMIREZ MARTINEZ: lo
+
+334
+00:39:21.360 --> 00:39:31.719
+DEIVIS EDUARD RAMIREZ MARTINEZ: lo ensamblan, lo ejecutan y ya después de ejecutado. Se vienen a estas opciones. Meet Stut Content, y esto y pegan, las hacen las capturas y las van agregando. Acá
+
+335
+00:39:35.260 --> 00:39:39.859
+DEIVIS EDUARD RAMIREZ MARTINEZ: tienen que ser las capturas. Serán algo parecidos a esto, porque, por ejemplo, este hotel Mit.
+
+336
+00:39:40.040 --> 00:39:43.120
+DEIVIS EDUARD RAMIREZ MARTINEZ: pero es que yo no voy a compilarles el ejercicio base.
+
+337
+00:39:43.340 --> 00:39:47.480
+DEIVIS EDUARD RAMIREZ MARTINEZ: porque eso es lo que ustedes tienen que hacer. Básicamente cambias el archivo.
+
+338
+00:39:48.490 --> 00:39:51.710
+DEIVIS EDUARD RAMIREZ MARTINEZ: Después se ven ana tours, ejecutan esas herramientas.
+
+339
+00:39:53.850 --> 00:40:00.900
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿qué lo conecta lo ensambla, lo ejecutan.
+
+340
+00:40:01.260 --> 00:40:03.990
+DEIVIS EDUARD RAMIREZ MARTINEZ: Estos son los datos que van a ser
+
+341
+00:40:04.160 --> 00:40:06.029
+DEIVIS EDUARD RAMIREZ MARTINEZ: lo que ustedes tendrán que utilizar
+
+342
+00:40:07.150 --> 00:40:11.550
+DEIVIS EDUARD RAMIREZ MARTINEZ: para hacer el relleno de esta tabla del informe que está acá.
+
+343
+00:40:14.440 --> 00:40:15.649
+DEIVIS EDUARD RAMIREZ MARTINEZ: Esto. Por ejemplo.
+
+344
+00:40:33.950 --> 00:40:37.800
+DEIVIS EDUARD RAMIREZ MARTINEZ: Miguel me pregunta que si es para entregar el 31 de agosto.
+
+345
+00:40:39.340 --> 00:40:46.530
+DEIVIS EDUARD RAMIREZ MARTINEZ: realmente esta información la encuentran en el campus, en la parte de evaluación y
+
+346
+00:40:46.720 --> 00:40:50.410
+DEIVIS EDUARD RAMIREZ MARTINEZ: para responder puntualmente a tu pregunta, Miguel: Sí, sería para el 31 de agosto.
+
+347
+00:40:58.730 --> 00:41:05.240
+DEIVIS EDUARD RAMIREZ MARTINEZ: esa captura que tú me enviaste el Este
+
+348
+00:41:13.500 --> 00:41:17.730
+DEIVIS EDUARD RAMIREZ MARTINEZ: son 2 redes. Es para el 7. Ah, bueno, ya no hay. ¿ Están hablando de otro tema.
+
+349
+00:41:17.890 --> 00:41:24.770
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a hacer. Voy a hacer ese pequeño ejercicio, digamos, para la para la primera parte, para el 1. Uno. Voy a cerrar esto.
+
+350
+00:41:29.200 --> 00:41:35.040
+DEIVIS EDUARD RAMIREZ MARTINEZ: Voy a limpiar esto. Tengo el simulador abierto, Voy a abrir el archivo de Ssembler.
+
+351
+00:41:35.470 --> 00:41:36.910
+DEIVIS EDUARD RAMIREZ MARTINEZ: El archivo base.
+
+352
+00:41:37.470 --> 00:41:46.920
+DEIVIS EDUARD RAMIREZ MARTINEZ: Eso es lo que quería evitarme. Ahora me tengo que ir al inicio usuario One drive
+
+353
+00:41:56.080 --> 00:42:01.899
+DEIVIS EDUARD RAMIREZ MARTINEZ: documentos, proyecto deme en un momento.
+
+354
+00:42:05.500 --> 00:42:07.910
+DEIVIS EDUARD RAMIREZ MARTINEZ: También todos.
+
+355
+00:42:08.480 --> 00:42:12.040
+DEIVIS EDUARD RAMIREZ MARTINEZ: Le cansé un laboratorio. Creo que lo llamé.
+
+356
+00:42:16.930 --> 00:42:24.040
+DEIVIS EDUARD RAMIREZ MARTINEZ: Es la y voy a cargar listo.
+
+357
+00:42:26.360 --> 00:42:32.030
+DEIVIS EDUARD RAMIREZ MARTINEZ: La actividad se llama optimización beat Line.
+
+358
+00:42:33.100 --> 00:42:50.780
+DEIVIS EDUARD RAMIREZ MARTINEZ: cuando al lado de optimizar, es con los mismos recursos que tenemos mejorar ese proceso para obtener mejores resultados. Entonces, ¿qué pasa que si nos vamos al al al contexto de la asignaturas. Aquí lo que vamos a hacer es un paralelismo a nivel de instrucciones, cosa que estamos viendo en el curso. Entonces esta primera parte
+
+359
+00:42:52.670 --> 00:42:59.860
+DEIVIS EDUARD RAMIREZ MARTINEZ: de 1 punto, 1: capturas, voy a cerrar Esto acá es esto
+
+360
+00:43:00.210 --> 00:43:02.660
+DEIVIS EDUARD RAMIREZ MARTINEZ: cargar el programa base. Lo tengo cargado acá
+
+361
+00:43:03.370 --> 00:43:12.810
+DEIVIS EDUARD RAMIREZ MARTINEZ: y ejecutar estas herramientas. Lo que yo les decía, Vengo acá lo ensamblo. Vengo, acá. Lo ejecuto sí, y
+
+362
+00:43:14.400 --> 00:43:20.810
+DEIVIS EDUARD RAMIREZ MARTINEZ: ya con la ejecución. Vengo acá y empiezo a mirar esto, tú conecto.
+
+363
+00:43:22.900 --> 00:43:26.370
+DEIVIS EDUARD RAMIREZ MARTINEZ: perdón conecto. Y vuelvo a ejecutar acá ensamblo.
+
+364
+00:43:26.760 --> 00:43:29.589
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y cómo tense cuenta que aquí me aparecen unos datos.
+
+365
+00:43:31.600 --> 00:43:40.379
+DEIVIS EDUARD RAMIREZ MARTINEZ: se ejecutaron como tal. 94 instrucciones de estas 94 instrucciones, la ejecutó. 25 acuérdense del ejercicio que veíamos
+
+366
+00:43:40.790 --> 00:43:44.959
+DEIVIS EDUARD RAMIREZ MARTINEZ: entonces estas capturas. Este resultado que estoy acá
+
+367
+00:43:45.280 --> 00:43:50.530
+DEIVIS EDUARD RAMIREZ MARTINEZ: instrucción estadística de instrucción es una de las capturas que tengo que yo les pido, acá
+
+368
+00:43:51.950 --> 00:43:54.269
+DEIVIS EDUARD RAMIREZ MARTINEZ: o sea, ese resultado que me dio acá
+
+369
+00:43:54.710 --> 00:44:01.070
+DEIVIS EDUARD RAMIREZ MARTINEZ: la primera captura es una de las capturas que ustedes tienen que incluir cuando ejecuten la herramienta instrucción estática.
+
+370
+00:44:01.870 --> 00:44:08.240
+DEIVIS EDUARD RAMIREZ MARTINEZ: Esto sí, aquí. Lo ideal sería que hiciera las 2 así parecido para que yo vea.
+
+371
+00:44:08.870 --> 00:44:11.089
+DEIVIS EDUARD RAMIREZ MARTINEZ: podrían incluir toda la captura de esto.
+
+372
+00:44:11.810 --> 00:44:13.519
+DEIVIS EDUARD RAMIREZ MARTINEZ: Miremos la segunda parte.
+
+373
+00:44:14.540 --> 00:44:16.350
+DEIVIS EDUARD RAMIREZ MARTINEZ: La segunda herramienta que es
+
+374
+00:44:19.530 --> 00:44:24.660
+DEIVIS EDUARD RAMIREZ MARTINEZ: Instrucción Counter. Ok, Me vengo acá. Entonces al simulador. Ahí ya tengo cargado el archivo.
+
+375
+00:44:24.970 --> 00:44:29.070
+DEIVIS EDUARD RAMIREZ MARTINEZ: Vengo acá. Instrucción Counter, donde está. Acá.
+
+376
+00:44:29.980 --> 00:44:32.060
+DEIVIS EDUARD RAMIREZ MARTINEZ: Le digo conectar al Meet.
+
+377
+00:44:32.740 --> 00:44:34.880
+DEIVIS EDUARD RAMIREZ MARTINEZ: Vengo ensamblo.
+
+378
+00:44:35.070 --> 00:44:36.810
+DEIVIS EDUARD RAMIREZ MARTINEZ: Vengo y ejecuto
+
+379
+00:44:36.970 --> 00:44:43.010
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y estos son los datos que me tienen que ir guardando en los o sea, la factura, perdón, sí,
+
+380
+00:44:52.230 --> 00:44:55.359
+DEIVIS EDUARD RAMIREZ MARTINEZ: y qué órdenes están a ver si por lo unificamos mejor.
+
+381
+00:44:55.580 --> 00:45:03.760
+DEIVIS EDUARD RAMIREZ MARTINEZ: Meet, Instrucción, counter yunter y estadística. Ya las tenemos: suspensión contraria, este
+
+382
+00:45:09.140 --> 00:45:12.420
+DEIVIS EDUARD RAMIREZ MARTINEZ: y faltaría la otra.
+
+383
+00:45:13.630 --> 00:45:20.690
+DEIVIS EDUARD RAMIREZ MARTINEZ: Lo mismo. Vengo Acá a herramientas. Creo que es Meet está conecto.
+
+384
+00:45:21.170 --> 00:45:27.859
+DEIVIS EDUARD RAMIREZ MARTINEZ: Vengo ejecuto. Pero antes de ejecutar, tengo que ensamblar ensamblo y ejecuto.
+
+385
+00:45:28.010 --> 00:45:32.580
+DEIVIS EDUARD RAMIREZ MARTINEZ: esta sí les recomendaría que la ejecutaran paso a paso para que miren cada una de las líneas
+
+386
+00:45:32.710 --> 00:45:40.279
+DEIVIS EDUARD RAMIREZ MARTINEZ: antes de ejecutar dese cuenta que me va mostrando. Y esto es lo que yo quiero que ustedes entiendan que que vean cómo internamente funciona un procesador.
+
+387
+00:45:47.980 --> 00:45:49.050
+DEIVIS EDUARD RAMIREZ MARTINEZ: dime Tomás.
+
+388
+00:45:49.540 --> 00:45:55.889
+Thomas Alfonso Jaramillo Meneses: Profe una pregunta. Esa la ejecutamos paso a paso, pero solo mostramos una captura de cualquier ejecución, ¿cierto?
+
+389
+00:45:56.350 --> 00:45:56.980
+DEIVIS EDUARD RAMIREZ MARTINEZ: Sí.
+
+390
+00:45:57.380 --> 00:45:58.450
+Thomas Alfonso Jaramillo Meneses: Ah, listo. Perfecto.
+
+391
+00:45:58.450 --> 00:46:03.929
+DEIVIS EDUARD RAMIREZ MARTINEZ: Todas formas, como se ejecuta, aunque se ejecuta paso a paso. El resultado final es la cultura que yo necesito.
+
+392
+00:46:04.480 --> 00:46:05.490
+Thomas Alfonso Jaramillo Meneses: Okay.
+
+393
+00:46:06.440 --> 00:46:14.290
+DEIVIS EDUARD RAMIREZ MARTINEZ: O a modo académico, lo van ejecutando paso a paso. Y después, si hacen la nueva y muestran el resultado final de un solo de un solo corrido.
+
+394
+00:46:14.930 --> 00:46:16.560
+Thomas Alfonso Jaramillo Meneses: listo. Profe: Gracias.
+
+395
+00:46:16.970 --> 00:46:23.460
+Thomas Alfonso Jaramillo Meneses: Y digamos 1: cómo sabe cuándo llega a la final Ahí el programa le avisa o 1. Cuál, como sabe, cuál es.
+
+396
+00:46:23.980 --> 00:46:28.860
+DEIVIS EDUARD RAMIREZ MARTINEZ: Tienes que venir acá. Siguiendo. Ves, acá. Va cambiando.
+
+397
+00:46:29.440 --> 00:46:31.420
+DEIVIS EDUARD RAMIREZ MARTINEZ: Vuelve y ejecuta la simulación.
+
+398
+00:46:33.080 --> 00:46:36.520
+DEIVIS EDUARD RAMIREZ MARTINEZ: Esto me pasó, digamos, la s. Cero. Lo paso a esta posición
+
+399
+00:46:36.820 --> 00:46:39.860
+DEIVIS EDUARD RAMIREZ MARTINEZ: y voy voy el justo al siguiente paso
+
+400
+00:46:48.950 --> 00:46:50.370
+DEIVIS EDUARD RAMIREZ MARTINEZ: listo. Ahí terminó.
+
+401
+00:46:52.120 --> 00:46:57.990
+DEIVIS EDUARD RAMIREZ MARTINEZ: No, no es ateo desconecto, reseteo.
+
+402
+00:46:58.200 --> 00:47:02.849
+DEIVIS EDUARD RAMIREZ MARTINEZ: Hemos dicho, tengan en cuenta que son simuladores y a veces, cuando si se les cuelga, pues lo mejor es cerrarlo.
+
+403
+00:47:04.020 --> 00:47:09.360
+DEIVIS EDUARD RAMIREZ MARTINEZ: volver a ejecutar, ensamblar ejecutarlo.
+
+404
+00:47:09.620 --> 00:47:15.560
+DEIVIS EDUARD RAMIREZ MARTINEZ: pero perdóname, No he llamado a la herramienta cómo es que me faltaba el último. Esta conecto
+
+405
+00:47:15.910 --> 00:47:20.010
+DEIVIS EDUARD RAMIREZ MARTINEZ: a ver si vengo ejecuto ensamblo y ejecuto.
+
+406
+00:47:23.230 --> 00:47:25.340
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ahí está ejecutando las instrucciones.
+
+407
+00:47:27.560 --> 00:47:36.460
+DEIVIS EDUARD RAMIREZ MARTINEZ: Si se dieron cuenta algo que me acabo de percibir es que, como ya tengo las otras 2 herramientas abiertas. Estos datos me van aumentando.
+
+408
+00:47:36.830 --> 00:47:43.700
+DEIVIS EDUARD RAMIREZ MARTINEZ: Antes aparecía 94, pero él se cuenta, como ya hemos ejecutado, más instrucciones y no he reseteado esto. Estos valores se están alterando.
+
+409
+00:47:44.490 --> 00:47:49.230
+DEIVIS EDUARD RAMIREZ MARTINEZ: Vamo a decir profesor, ¿sí? Mire, vengo acá lo mismo ensamblo.
+
+410
+00:47:49.500 --> 00:47:55.450
+DEIVIS EDUARD RAMIREZ MARTINEZ: Aquí tenemos 285 en el contador de instrucciones y en el estadística 479
+
+411
+00:47:56.970 --> 00:48:10.770
+DEIVIS EDUARD RAMIREZ MARTINEZ: ensamblo, ejecuto y se modifica Entonces tengamos en cuenta que no debemos estar compilando a cada rato, sino factura.
+
+412
+00:48:11.110 --> 00:48:15.750
+DEIVIS EDUARD RAMIREZ MARTINEZ: Sí, porque si no, yo puedo entender de que
+
+413
+00:48:16.900 --> 00:48:19.679
+DEIVIS EDUARD RAMIREZ MARTINEZ: el número de inscripciones no es el correcto.
+
+414
+00:48:19.840 --> 00:48:24.740
+DEIVIS EDUARD RAMIREZ MARTINEZ: Porque, como estamos hablando de optimización, tenemos que obtener los mismos resultados, pero
+
+415
+00:48:26.010 --> 00:48:30.039
+DEIVIS EDUARD RAMIREZ MARTINEZ: me regreso, aca pero haciendo unos ajustes de unas instrucciones.
+
+416
+00:48:32.340 --> 00:48:33.700
+DEIVIS EDUARD RAMIREZ MARTINEZ: Listo, acá
+
+417
+00:48:33.810 --> 00:48:48.569
+DEIVIS EDUARD RAMIREZ MARTINEZ: Esto que acabamos de ver. Básicamente sería el 1 1, el paso aquí, a insertar las capturas de esos 3 resultados. Mi recomendación, ejecutenlo de forma independiente y reseteen y vuelvan a mostrar cada una de las herramientas, tanto el Mit, tanto el Ice y tanto el I, ese
+
+418
+00:48:48.980 --> 00:48:50.449
+DEIVIS EDUARD RAMIREZ MARTINEZ: captura y siga
+
+419
+00:48:51.110 --> 00:49:03.869
+DEIVIS EDUARD RAMIREZ MARTINEZ: completa la siguiente tabla, identificando cuáles son las instrucciones que causan el las paradas en el Pit Line Recuérdese que nosotros estamos haciendo uso de un simulador que trabaja de forma secuencial, o sea, va depurando línea por línea.
+
+420
+00:49:04.040 --> 00:49:11.060
+DEIVIS EDUARD RAMIREZ MARTINEZ: Esto que está acá en el lenguaje como tal, voy a cerrar esto.
+
+421
+00:49:13.050 --> 00:49:28.600
+DEIVIS EDUARD RAMIREZ MARTINEZ: cierro esto cierro esto. Cada una de estas líneas se va ejecutando, acuérdense que nosotros. Yo les decía, el procesador como tal, tiene que encontrar la for la la instrucción, decodificarla y después ejecutarla. Ese proceso de 3 fases.
+
+422
+00:49:28.880 --> 00:49:31.779
+DEIVIS EDUARD RAMIREZ MARTINEZ: Hay que hacerlo por cada una de estas líneas.
+
+423
+00:49:33.750 --> 00:49:36.310
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces, ¿qué pasa que en una de estas líneas.
+
+424
+00:49:36.780 --> 00:49:40.400
+DEIVIS EDUARD RAMIREZ MARTINEZ: cuando él empieza a ejecutar, se genera el cuello de botella.
+
+425
+00:49:43.400 --> 00:49:45.050
+DEIVIS EDUARD RAMIREZ MARTINEZ: Por eso es que acá y dice
+
+426
+00:49:45.860 --> 00:50:05.689
+DEIVIS EDUARD RAMIREZ MARTINEZ: verificar la la tabla, o sea, hay que hay que diligenciar una tabla en la tabla tiene estas 4 columnas, instrucción cautal causante de instrucción afectada del tipo de riesgo, sí, y lo el chicle para entonces mirar, por ejemplo, si que pasa en el en el simulador. En esta línea, cuando ejecuta la low
+
+427
+00:50:06.100 --> 00:50:09.040
+DEIVIS EDUARD RAMIREZ MARTINEZ: variables de sub 6, me vengo. Acá
+
+428
+00:50:10.040 --> 00:50:13.640
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ustedes tienen que mirar. Acá está Acá sí,
+
+429
+00:50:13.770 --> 00:50:17.349
+DEIVIS EDUARD RAMIREZ MARTINEZ: incluso dentro del mismo programa. Les coloco un comentario.
+
+430
+00:50:21.750 --> 00:50:35.370
+DEIVIS EDUARD RAMIREZ MARTINEZ: Aquí genera acuérdense que cuando nosotros hablamos de paralelismo a nivel de instrucciones, yo les decía que hay que tener mucho cuidado en la forma en que se programa. Porque si nosotros queremos hacer paralelismo después, la dependencia de un dato puede afectar la en la ejecución
+
+431
+00:50:35.690 --> 00:50:44.030
+DEIVIS EDUARD RAMIREZ MARTINEZ: del otro de la otra instrucción. Y ahí es donde se generan los tiempos muertos que los profesores no están haciendo nada, sino están esperando un resultado de algo
+
+432
+00:50:55.840 --> 00:50:56.720
+DEIVIS EDUARD RAMIREZ MARTINEZ: esto.
+
+433
+00:51:01.030 --> 00:51:05.030
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces, sigo con la con el For. La guía de de Mark Down
+
+434
+00:51:06.380 --> 00:51:16.770
+DEIVIS EDUARD RAMIREZ MARTINEZ: acá es identificar cuáles son las instrucciones que causan afectación en el Big line y diligencia. Atlas. ¿cuál es la instrucción que se afecta por ejemplo. Acá. Yo les coloco como ejemplo esta afecta esta
+
+435
+00:51:19.340 --> 00:51:23.689
+DEIVIS EDUARD RAMIREZ MARTINEZ: porque para cargarla primero hay que, o sea, cuando se trata de cargar, está en uso.
+
+436
+00:51:26.810 --> 00:51:40.400
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y aquí ya vienen una serie de datos a nivel estadístico que ustedes tienen que que recapitular. Y por eso yo les decía que es mejor que ejecuten cada una de las herramientas y reseteen, porque acá les estoy preguntando: Cuántas instrucciones.
+
+437
+00:51:42.690 --> 00:51:45.180
+DEIVIS EDUARD RAMIREZ MARTINEZ: Cuántas paradas sí?
+
+438
+00:51:47.820 --> 00:52:02.310
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿qué pasa que aquí Esto está el Uno 2. Es como en el código que yo les entrego. El programa base que yo le llamo programa guión base junto a Cm. ¿qué pasa. Aquí es donde ya viene a ustedes a echarle mano a ese archivo que yo les di
+
+439
+00:52:02.560 --> 00:52:05.000
+DEIVIS EDUARD RAMIREZ MARTINEZ: porque, modificando
+
+440
+00:52:05.560 --> 00:52:14.650
+DEIVIS EDUARD RAMIREZ MARTINEZ: el mismo código, se optimiza. La cuestión de optimizar es para que no se genere esos esos hashtags que estábamos acá estas pérdidas.
+
+441
+00:52:14.970 --> 00:52:18.189
+DEIVIS EDUARD RAMIREZ MARTINEZ: y que no se genere riesgo.
+
+442
+00:52:20.640 --> 00:52:33.240
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces yo les decía: ojo porque este laboratorio realmente la ejecución de de pronto les les confunde un poco, pero igual con este o con la siguiente clase. Vamos a aclarar todo, pero esta parte de aquí en adelante es lo interesante de la práctica.
+
+443
+00:52:33.350 --> 00:52:36.340
+DEIVIS EDUARD RAMIREZ MARTINEZ: Ustedes tienen que revisar ese código y mirar cuál
+
+444
+00:52:36.830 --> 00:52:41.729
+DEIVIS EDUARD RAMIREZ MARTINEZ: cuál es esa línea que le está generando ese hazard o ese problema.
+
+445
+00:52:41.880 --> 00:52:55.940
+DEIVIS EDUARD RAMIREZ MARTINEZ: y cómo lo pueden optimizar. Y aquí es donde ustedes me van a pegar ese código resultante en Asembler, que se llama programa optimizado Punto Smd. Lo pegan aquí. Y aparte de eso, lo cargan allá en el en el repositorio.
+
+446
+00:52:56.360 --> 00:52:57.470
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y explican.
+
+447
+00:52:58.150 --> 00:53:07.479
+DEIVIS EDUARD RAMIREZ MARTINEZ: aquí es donde ustedes me tienen que argumentar ¿Por qué movieron o porque quitaron tal línea o porqué cambiaron tal operador? ¿para que qué? Para que se elimine el riesgo de los datos
+
+448
+00:53:11.580 --> 00:53:16.789
+DEIVIS EDUARD RAMIREZ MARTINEZ: y abajo hay que hacer una comparación de que
+
+449
+00:53:16.970 --> 00:53:24.229
+DEIVIS EDUARD RAMIREZ MARTINEZ: de los datos obtenidos en el numeral, 1 con los datos obtenidos en ese código que ustedes han optimizado
+
+450
+00:53:25.070 --> 00:53:26.659
+DEIVIS EDUARD RAMIREZ MARTINEZ: de cuánto fue la mejora.
+
+451
+00:53:27.150 --> 00:53:30.959
+DEIVIS EDUARD RAMIREZ MARTINEZ: Los ciclos totales se mejoraron en tanto por 100 los Stal.
+
+452
+00:53:31.260 --> 00:53:41.349
+DEIVIS EDUARD RAMIREZ MARTINEZ: si antes digamos, se ejecutaban 100 paradas de ustedes con el Código que hicieron, optimizaron y solamente se quedan en 10 para pues ya la teníamos una mejora del 90 por 100.
+
+453
+00:53:42.100 --> 00:53:50.449
+DEIVIS EDUARD RAMIREZ MARTINEZ: Qué y a lo último, un numeral de conclusiones? ¿qué conclusiones tienen aquí? Les planteo unas 2 preguntas
+
+454
+00:53:52.220 --> 00:53:55.049
+DEIVIS EDUARD RAMIREZ MARTINEZ: que, con base en lo obtenido en la práctica. Me deben responder.
+
+455
+00:54:00.420 --> 00:54:03.030
+DEIVIS EDUARD RAMIREZ MARTINEZ: Les pareció interesante. Me parece interesante esta práctica.
+
+456
+00:54:06.470 --> 00:54:07.620
+DEIVIS EDUARD RAMIREZ MARTINEZ: Preguntas
+
+457
+00:54:14.380 --> 00:54:15.729
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿Qué podemos hacer?
+
+458
+00:54:16.500 --> 00:54:17.520
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y
+
+459
+00:54:17.680 --> 00:54:24.280
+DEIVIS EDUARD RAMIREZ MARTINEZ: mi recomendación es que el bueno no voy, pero sí en el transcurso de mañana y en el transcurso del miércoles, como nos volvemos a ver el miércoles.
+
+460
+00:54:24.510 --> 00:54:29.789
+DEIVIS EDUARD RAMIREZ MARTINEZ: Traten de revisarlo y cualquier inquietud puntual, pues la vemos el el miércoles en Kins.
+
+461
+00:54:41.300 --> 00:54:44.199
+DEIVIS EDUARD RAMIREZ MARTINEZ: más El análisis que yo quiero que ustedes hagan
+
+462
+00:54:59.430 --> 00:55:07.190
+DEIVIS EDUARD RAMIREZ MARTINEZ: interesante, pero difícil de entender qué es difícil de entender el funcionamiento del del simulador.
+
+463
+00:55:09.010 --> 00:55:12.189
+Thomas Alfonso Jaramillo Meneses: Sí, señor Profey, las instrucciones y todo.
+
+464
+00:55:12.470 --> 00:55:17.630
+DEIVIS EDUARD RAMIREZ MARTINEZ: Bueno, estamos hablando de instrucciones. Entonces, el miércoles saco un tiempo y le explico un poco Asembbler.
+
+465
+00:55:18.950 --> 00:55:20.649
+Thomas Alfonso Jaramillo Meneses: Listo. Profe: Gracias.
+
+466
+00:55:21.440 --> 00:55:23.240
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y claro.
+
+467
+00:55:23.240 --> 00:55:27.719
+Thomas Alfonso Jaramillo Meneses: Y yo sí creería que ese es el tiempo muerto porque todavía no ha terminado.
+
+468
+00:55:28.820 --> 00:55:36.310
+Thomas Alfonso Jaramillo Meneses: Todavía no ha terminado, pero no me aparece, digamos, el al momento de ejecutar. Cuál cuál está leyendo?
+
+469
+00:55:37.480 --> 00:55:40.679
+Thomas Alfonso Jaramillo Meneses: Yo creo que es. Tengo que esperar hasta que termine todo va.
+
+470
+00:55:43.310 --> 00:55:51.170
+DEIVIS EDUARD RAMIREZ MARTINEZ: No les estoy pidiendo que cree en un nuevo programa porque ya les estoy dando el archivo. Es Ana mi recomendación analicen primero que todo que hace ese archivo
+
+471
+00:55:53.540 --> 00:55:57.750
+DEIVIS EDUARD RAMIREZ MARTINEZ: es el archivo desempler que hace ese programa va guión, Base ensembler.
+
+472
+00:55:59.030 --> 00:56:03.810
+DEIVIS EDUARD RAMIREZ MARTINEZ: Entonces yo sé, lo abro. Y voy leyendo los comentarios, porque incluso se los paso con comentarios.
+
+473
+00:56:08.170 --> 00:56:08.990
+DEIVIS EDUARD RAMIREZ MARTINEZ: Sí,
+
+474
+00:56:09.190 --> 00:56:20.539
+DEIVIS EDUARD RAMIREZ MARTINEZ: el Ele. W. ¿qué significa? L, W, ¿Qué significa L A A, pero es que el Profe nos nos compartió en la carpeta de la de la de la de la práctica, que significa cada una de estas cosas
+
+475
+00:56:22.400 --> 00:56:27.919
+DEIVIS EDUARD RAMIREZ MARTINEZ: hay que hay que hay que trabajar un poco. La capacidad analítica, sí, en el sentido de
+
+476
+00:56:28.100 --> 00:56:30.480
+DEIVIS EDUARD RAMIREZ MARTINEZ: qué ¿Qué pasa si muevo tal cosa?
+
+477
+00:56:34.910 --> 00:56:42.160
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿qué pasa si paso esta línea? O qué pasa si o lo primero que yo haría es identificar qué es lo que me está generando el hazard, la alerta
+
+478
+00:56:45.460 --> 00:56:47.390
+DEIVIS EDUARD RAMIREZ MARTINEZ: y
+
+479
+00:56:48.860 --> 00:57:05.940
+DEIVIS EDUARD RAMIREZ MARTINEZ: que más no leo celeste me dice: yo estoy yo estoy viendo en sí, porque no entiendo qué tenemos que modificar nosotros, pues precisamente tienen que entender el código para saber que deben modificar, para que no se genere el hazard. El hazard es una una señal de alerta del del procesador que nos está diciendo que está presionando algún tiempo muerto.
+
+480
+00:57:06.540 --> 00:57:07.320
+DEIVIS EDUARD RAMIREZ MARTINEZ: Sí
+
+481
+00:57:08.110 --> 00:57:15.369
+DEIVIS EDUARD RAMIREZ MARTINEZ: me dice en la siguiente clase, haga lo mismo que hoy, sin que ninguno de nosotros lo interrumpamos para llevar más a la secuencia.
+
+482
+00:57:15.860 --> 00:57:26.249
+DEIVIS EDUARD RAMIREZ MARTINEZ: ¿qué es exactamente lo que tenemos que subir a Gigab a Yihad. Solamente sube los 2 archivos de Asembler Celeste? Esa esa pregunta. Si te la respondo y de forma clara.
+
+483
+00:57:26.660 --> 00:57:32.650
+DEIVIS EDUARD RAMIREZ MARTINEZ: el el programa guion base y el programa bien optimizado.
+
+484
+00:57:33.350 --> 00:57:37.559
+DEIVIS EDUARD RAMIREZ MARTINEZ: Esos son los 2 únicos archivos que tienes que subir Asembler, que si tú miras.
+
+485
+00:57:37.680 --> 00:57:40.630
+DEIVIS EDUARD RAMIREZ MARTINEZ: digamos, el el programa optimizado
+
+486
+00:57:40.860 --> 00:57:46.630
+DEIVIS EDUARD RAMIREZ MARTINEZ: ya de por sí me tienes que ir pegando una captura, una captura. No tienes que ir pegando el código
+
+487
+00:57:46.950 --> 00:57:52.640
+DEIVIS EDUARD RAMIREZ MARTINEZ: de ese de ese código. Acá. ¿ven? Te digo en el 2, 2 tiene que pegar todo el código
+
+488
+00:57:53.500 --> 00:57:57.430
+DEIVIS EDUARD RAMIREZ MARTINEZ: de de ese programa optimizado.
+
+489
+00:57:57.730 --> 00:57:58.480
+DEIVIS EDUARD RAMIREZ MARTINEZ: Qué?
+
+490
+00:57:58.610 --> 00:58:08.699
+DEIVIS EDUARD RAMIREZ MARTINEZ: Pero por se estarán pensando, Profe: Pero entonces, ¿para qué nos hace presentar el el código en el repositorio. Pero es que yo no puedo trabajar sobre un Pdf. Yo tengo que descargarme el código en Asemble, y por eso es que les pido.
+
+491
+00:58:09.590 --> 00:58:16.150
+DEIVIS EDUARD RAMIREZ MARTINEZ: Pero aquí tiene que pegar el código que se genera, Y ya esto es analizar.
+
+492
+00:58:20.870 --> 00:58:24.920
+DEIVIS EDUARD RAMIREZ MARTINEZ: Miren quién era el que me decía que no sabía.
+
+493
+00:58:26.110 --> 00:58:28.880
+DEIVIS EDUARD RAMIREZ MARTINEZ: Me acabo de dar cuenta de un error. Eso sí fue un error mío.
+
+494
+00:58:33.560 --> 00:58:39.169
+DEIVIS EDUARD RAMIREZ MARTINEZ: porque ahorita me preguntaba, Creo que era Tomás, que qué era lo que, cómo hacían que para modificar?
+
+495
+00:58:39.910 --> 00:58:43.290
+DEIVIS EDUARD RAMIREZ MARTINEZ: Y miren el el numeral, esta este anunciado al 2 2.
+
+496
+00:58:43.980 --> 00:58:45.940
+DEIVIS EDUARD RAMIREZ MARTINEZ: Aquí ya les está avanzando bastante.
+
+497
+00:58:55.170 --> 00:59:00.399
+DEIVIS EDUARD RAMIREZ MARTINEZ: es complicado lo que parece, pero realmente no es tanto.
+
+498
+00:59:00.540 --> 00:59:03.009
+DEIVIS EDUARD RAMIREZ MARTINEZ: De todas formas nos vemos el miércoles, cualquier inquietud.
+
+499
+00:59:03.300 --> 00:59:09.690
+DEIVIS EDUARD RAMIREZ MARTINEZ: Vemos el tema y los últimos minutos explico lo lo que tengan pendiente vale.
+
+500
+00:59:10.970 --> 00:59:12.159
+Thomas Alfonso Jaramillo Meneses: Sí, señor Probé.
+
+501
+00:59:13.030 --> 00:59:17.710
+DEIVIS EDUARD RAMIREZ MARTINEZ: Bueno, espero que les guste esta actividad. Quería sacarlos un poco del y.
+
+502
+00:59:17.710 --> 00:59:23.090
+Esneyder Rene Vargas Rico: Un poquillo más despacio.
+
+503
+00:59:23.680 --> 00:59:27.739
+DEIVIS EDUARD RAMIREZ MARTINEZ: Dale eso detrás de ustedes. Aprendan. No se traten de rajarlos. Trata de que ustedes aprendan. Y
+
+504
+00:59:27.920 --> 00:59:35.059
+DEIVIS EDUARD RAMIREZ MARTINEZ: este simulador es 1 de los que me encanta, porque finalmente vemos como como toda esta parte cuando se ejecuta.
+
+505
+00:59:35.990 --> 00:59:39.269
+DEIVIS EDUARD RAMIREZ MARTINEZ: cuando se ejecutan estas herramientas del
+
+506
+00:59:39.510 --> 00:59:47.330
+DEIVIS EDUARD RAMIREZ MARTINEZ: el el Mitz. Y esto cuando venimos acá y entendemos cómo funciona. Cada una de estas líneas
+
+507
+00:59:50.140 --> 00:59:51.970
+DEIVIS EDUARD RAMIREZ MARTINEZ: sí hay que empezar.
+
+508
+00:59:52.490 --> 00:59:56.190
+DEIVIS EDUARD RAMIREZ MARTINEZ: Se está ejecutando las instrucciones le gustan, sí,
+
+509
+00:59:58.110 --> 01:00:00.010
+DEIVIS EDUARD RAMIREZ MARTINEZ: y van haciendo el paso a paso.
+
+510
+01:00:00.220 --> 01:00:03.199
+Thomas Alfonso Jaramillo Meneses: O sea, ahí dice qué instrucción se está ejecutando? Profe.
+
+511
+01:00:03.880 --> 01:00:08.380
+DEIVIS EDUARD RAMIREZ MARTINEZ: Sí, mire la cancha aparte nos dice.
+
+512
+01:00:12.700 --> 01:00:16.569
+DEIVIS EDUARD RAMIREZ MARTINEZ: y miren también la parte de acá. Del cómo se manejan los registros.
+
+513
+01:00:16.830 --> 01:00:21.860
+DEIVIS EDUARD RAMIREZ MARTINEZ: Si ustedes, si ustedes miran acá, si ubican el mouse.
+
+514
+01:00:23.280 --> 01:00:27.460
+DEIVIS EDUARD RAMIREZ MARTINEZ: él le sale como una una alerta, dice, esos son registros temporales.
+
+515
+01:00:28.220 --> 01:00:36.740
+DEIVIS EDUARD RAMIREZ MARTINEZ: Esto es para salvar de memoria acá hay algo que es reservado para siempre argumento. Uno: argumento.
+
+516
+01:00:37.750 --> 01:00:38.460
+DEIVIS EDUARD RAMIREZ MARTINEZ: Sí.
+
+517
+01:00:38.660 --> 01:00:47.300
+DEIVIS EDUARD RAMIREZ MARTINEZ: Les va mostrando la indicación para qué sirven cada 1, esos registros. Y esos son los registros de memoria que yo les decía que eran lo más rápido porque están dentro del del procesador
+
+518
+01:00:47.660 --> 01:00:56.830
+DEIVIS EDUARD RAMIREZ MARTINEZ: está el programa counter a que sale. L, E: o sí. Bueno, acá. Televisión ¿Qué el Ca.
+
+519
+01:00:57.820 --> 01:01:07.760
+DEIVIS EDUARD RAMIREZ MARTINEZ: Bueno, Bueno, lo lo demos la otra clase. Pero aquí ya podemos mirar en números hexadecimales o en código ask más entendible. Todos estos datos que están almacenando, acá. Por ejemplo, es
+
+520
+01:01:08.170 --> 01:01:13.890
+DEIVIS EDUARD RAMIREZ MARTINEZ: este valor que está almacenado en la variable en el registro a T. ¿y qué significa todo este número y lo habilitamos.
+
+521
+01:01:14.010 --> 01:01:21.210
+DEIVIS EDUARD RAMIREZ MARTINEZ: eso lo vemos, pero sí les pido que trabajen un poquito mañana y pasado mañana para que me pregunten cosas puntuales de la actividad el miércoles en la noche.
+
+522
+01:01:21.930 --> 01:01:26.460
+DEIVIS EDUARD RAMIREZ MARTINEZ: listo, entonces no me queda más que desearles una feliz noche.
+
+523
+01:01:29.950 --> 01:01:31.649
+Thomas Alfonso Jaramillo Meneses: Gracias hasta luego.
+
+524
+01:01:32.000 --> 01:01:33.260
+DEIVIS EDUARD RAMIREZ MARTINEZ: Que descansen feliz noche.
+
+525
+01:01:51.440 --> 01:01:52.390
+Dhani Miguel Chavez Franquiz: Gracias.
+
