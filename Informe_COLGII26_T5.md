@@ -259,7 +259,6 @@ loop:
 - `codigo/programa_optimizado.asm` - Código con intercalación de instrucciones
 - `docs/` - Documentación y referencias
 - `capturas/` - Screenshots de MARS (Statistics, Counter, X-Ray)
-- `transcripciones/` - Transcripciones de clases
 
 ### 5.2 Referencias
 
