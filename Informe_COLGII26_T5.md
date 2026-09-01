@@ -1,11 +1,11 @@
 # Informe de Laboratorio: Optimización de Pipeline MIPS
 
-**Nombre del Estudiante:** Fierro Marlon Fernando  
-**Fecha:** 31 de agosto de 2026  
-**Asignatura:** Estructura de Computadores - Homologación Colombia  
-**Taller:** 5 - Optimización de Pipeline en Procesadores MIPS
+Nombre del Estudiante: Fierro Marlon Fernando  
+Fecha: 31 de agosto de 2026  
+Asignatura: Estructura de Computadores  
+Taller: 5 - Optimización de Pipeline en Procesadores MIPS
 
-**Enlace del repositorio en GitHub:** https://github.com/fierromarlonfernando-code/colgii26-taller-5-estructura
+Enlace del repositorio en GitHub: https://github.com/fierromarlonfernando-code/colgii26-taller-5-estructura
 
 ---
 
@@ -87,9 +87,9 @@ addu $t9, $s1, $t4    # Calcula dirección de Y[i]
 ```
 
 Esta instrucción es **completamente independiente** porque:
-- ✅ No depende de $t6 (que viene del `lw`)
-- ✅ No depende de $t7 (que viene del `mul`)
-- ✅ Solo usa $s1 (cargado en inicialización) y $t4 (calculado en `sll`)
+-  No depende de $t6 (que viene del `lw`)
+-  No depende de $t7 (que viene del `mul`)
+-  Solo usa $s1 (cargado en inicialización) y $t4 (calculado en `sll`)
 
 ### 2.2 Código Optimizado
 
@@ -208,7 +208,7 @@ loop:
 
 ### 3.2 Interpretación de Resultados
 
-✅ **Mejoras logradas:**
+ **Mejoras logradas:**
 
 1. **Reducción de stalls:** De 16 a 8 → **50% menos paradas**
 2. **Reducción de ciclos:** De 110 a 102 → **8 ciclos menos**
@@ -226,7 +226,7 @@ loop:
 ### 4.1 Conclusiones
 
 **1. La segmentación es una espada de doble filo:**
-- ✅ **Ventaja:** Permite ejecutar múltiples instrucciones simultáneamente
+-  **Ventaja:** Permite ejecutar múltiples instrucciones simultáneamente
 - ❌ **Desventaja:** Crea dependencias y riesgos que ralentizan el código
 
 **2. Necesidad de optimización manual en ensamblador:**
@@ -244,10 +244,10 @@ loop:
 
 ### 4.2 Lecciones Aprendidas
 
-- ✅ Entender el datapath y el pipeline es crucial para optimizar código de bajo nivel
-- ✅ Reordenar instrucciones independientes puede reducir stalls significativamente
-- ✅ No todas las mejoras teóricas se ven en simuladores funcionales (MARS)
-- ✅ En procesadores reales, esta optimización daría speedup de ~7%
+-  Entender el datapath y el pipeline es crucial para optimizar código de bajo nivel
+-  Reordenar instrucciones independientes puede reducir stalls significativamente
+-  No todas las mejoras teóricas se ven en simuladores funcionales (MARS)
+-  En procesadores reales, esta optimización daría speedup de ~7%
 
 ---
 
