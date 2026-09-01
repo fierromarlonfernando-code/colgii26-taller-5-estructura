@@ -1,0 +1,103 @@
+================================================================================
+INFORME DE LABORATORIO: OPTIMIZACIÓN DE PIPELINE MIPS
+================================================================================
+
+Nombre del Estudiante: Fierro Marlon Fernando
+Fecha: 31 de agosto de 2026
+Asignatura: Estructura de Computadores
+Taller: 5 - Optimización de Pipeline en Procesadores MIPS
+
+Enlace del repositorio: https://github.com/fierromarlonfernando-code/colgii26-taller-5-estructura
+
+================================================================================
+1. ANÁLISIS DEL CÓDIGO BASE
+================================================================================
+
+El programa calcula: Y[i] = A × X[i] + B para un vector de 8 elementos usando MIPS.
+
+Datos iniciales:
+- Vector X: [1, 2, 3, 4, 5, 6, 7, 8]
+- Constante A: 3
+- Constante B: 5
+- Tamaño: 8 elementos
+
+================================================================================
+2. RIESGOS IDENTIFICADOS (HAZARDS)
+================================================================================
+
+Load-Use Hazard:
+La instrucción lw carga un valor en $t6, y mul lo utiliza inmediatamente,
+causando 1 ciclo de parada.
+
+Raw Dependency:
+La instrucción mul produce un resultado en $t7, y addu lo utiliza inmediatamente,
+causando otro ciclo de parada.
+
+================================================================================
+3. OPTIMIZACIÓN PROPUESTA
+================================================================================
+
+Estrategia: Intercalar la instrucción independiente "addu $t9, $s1, $t4"
+entre lw y mul para llenar el delay slot del pipeline.
+
+Razón: Esta instrucción no depende de $t6 ni de $t7, permitiendo ejecutarla
+sin stalls adicionales.
+
+================================================================================
+4. RESULTADOS DE EJECUCIÓN
+================================================================================
+
+CÓDIGO BASE:
+- Total de Instrucciones: 94
+- Stalls estimados: 16 (8 iteraciones × 2 stalls/iteración)
+- Ciclos estimados: 110
+- CPI: 1.17
+
+CÓDIGO OPTIMIZADO:
+- Total de Instrucciones: 94
+- Stalls estimados: 8 (solo dependencia mul-addu)
+- Ciclos estimados: 102
+- CPI: 1.09
+
+MEJORA ALCANZADA:
+- Reducción de stalls: 50%
+- Reducción de ciclos: 7.3%
+- Mejora en CPI: 6.8%
+
+================================================================================
+5. CONCLUSIONES
+================================================================================
+
+El reordenamiento de instrucciones independientes es una técnica fundamental
+en la optimización de código para procesadores segmentados.
+
+El análisis teórico demuestra que aunque MARS es un simulador funcional,
+las mejoras identificadas tendrían impacto directo en un procesador real.
+
+La dependencia mul-addu no puede eliminarse completamente, pero la optimización
+del Load-Use hazard demuestra el impacto de comprender la arquitectura del
+procesador en la programación de bajo nivel.
+
+================================================================================
+INSTRUCCIONES PARA EL ESTUDIANTE:
+================================================================================
+
+1. Revisar este documento
+2. Firmar electrónicamente o imprimir y firmar
+3. Convertir a PDF
+4. Guardar en la carpeta del taller
+5. Subir a GitHub junto con el código
+
+Archivos relacionados en GitHub:
+- programa_base.asm (código sin optimizar)
+- programa_optimizado.asm (código optimizado)
+- Capturas de pantalla de MARS
+- Documentación técnica
+
+================================================================================
+
+Firma del Estudiante: ___________________________
+
+Fecha: ___________________________
+
+================================================================================
